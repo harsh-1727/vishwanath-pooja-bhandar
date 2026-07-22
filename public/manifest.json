@@ -1,0 +1,16 @@
+{
+  "name": "Vishwanath Pooja Bhandar",
+  "short_name": "Pooja Bhandar",
+  "description": "Premium Pooja Samagri and Festival Kits Store in West Patel Nagar, New Delhi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F1E6",
+  "theme_color": "#7A0C16",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}

@@ -1,0 +1,3376 @@
+{
+  "schemaVersion": 2,
+  "_meta": {
+    "source": "Handwritten inventory list + Excel Kit list provided by owner.",
+    "totalProducts": 99,
+    "openQuestions": "None"
+  },
+  "products": [
+    {
+      "id": "VPB-001",
+      "sno": 1,
+      "slug": "navratri-puja-samagri-durga-puja-kit",
+      "categorySlug": "festival-kits",
+      "nameHindi": "नवरात्रि पूजा सामग्री / दुर्गा पूजा किट",
+      "nameEnglish": "Navratri Puja Samagri / Durga Puja Kit",
+      "details": "50 Items",
+      "priceInr": 699,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "navratri puja samagri / durga puja kit",
+        "नवरात्रि पूजा सामग्री / दुर्गा पूजा किट",
+        "festival-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit-navratri.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Navratri Puja Samagri / Durga Puja Kit sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Navratri Puja Samagri / Durga Puja Kit | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Navratri Puja Samagri / Durga Puja Kit (नवरात्रि पूजा सामग्री / दुर्गा पूजा किट) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-002",
+      "sno": 2,
+      "slug": "diwali-puja-samagri-mahalakshmi-pujan-kit",
+      "categorySlug": "festival-kits",
+      "nameHindi": "दिवाली पूजा सामग्री / महालक्ष्मी पूजन किट",
+      "nameEnglish": "Diwali Puja Samagri / Mahalakshmi Pujan Kit",
+      "details": "50+ Items",
+      "priceInr": 799,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "diwali puja samagri / mahalakshmi pujan kit",
+        "दिवाली पूजा सामग्री / महालक्ष्मी पूजन किट",
+        "festival-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/laxmi-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Diwali Puja Samagri / Mahalakshmi Pujan Kit sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Diwali Puja Samagri / Mahalakshmi Pujan Kit | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Diwali Puja Samagri / Mahalakshmi Pujan Kit (दिवाली पूजा सामग्री / महालक्ष्मी पूजन किट) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-003",
+      "sno": 3,
+      "slug": "ganesh-pujan-ganpati-pujan-kit",
+      "categorySlug": "festival-kits",
+      "nameHindi": "गणेश पूजन / गणपति पूजन किट",
+      "nameEnglish": "Ganesh Pujan / Ganpati Pujan Kit",
+      "details": "40+ Items",
+      "priceInr": 699,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "ganesh pujan / ganpati pujan kit",
+        "गणेश पूजन / गणपति पूजन किट",
+        "festival-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit-ganesh.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Ganesh Pujan / Ganpati Pujan Kit sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Ganesh Pujan / Ganpati Pujan Kit | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Ganesh Pujan / Ganpati Pujan Kit (गणेश पूजन / गणपति पूजन किट) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-004",
+      "sno": 4,
+      "slug": "solah-somvar-friday-santoshi-mata-vrat-kit",
+      "categorySlug": "vrat-katha-kits",
+      "nameHindi": "सोलह सोमवार / वीरवार / शुक्रवार / संतोषी माता व्रत किट",
+      "nameEnglish": "Solah Somvar / Friday / Santoshi Mata Vrat Kit",
+      "details": "With Katha Book",
+      "priceInr": 799,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "solah somvar / friday / santoshi mata vrat kit",
+        "सोलह सोमवार / वीरवार / शुक्रवार / संतोषी माता व्रत किट",
+        "vrat-katha-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Solah Somvar / Friday / Santoshi Mata Vrat Kit sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Solah Somvar / Friday / Santoshi Mata Vrat Kit | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Solah Somvar / Friday / Santoshi Mata Vrat Kit (सोलह सोमवार / वीरवार / शुक्रवार / संतोषी माता व्रत किट) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-005",
+      "sno": 5,
+      "slug": "hanuman-ji-ka-chola",
+      "categorySlug": "devta-vishesh-kits",
+      "nameHindi": "हनुमान जी का चोला",
+      "nameEnglish": "Hanuman Ji Ka Chola",
+      "details": "9 Item Kit",
+      "priceInr": 199,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "hanuman ji ka chola",
+        "हनुमान जी का चोला",
+        "devta-vishesh-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/hanuman-chola.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Hanuman Ji Ka Chola sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Hanuman Ji Ka Chola | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Hanuman Ji Ka Chola (हनुमान जी का चोला) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-006",
+      "sno": 6,
+      "slug": "karva-chauth-pujan-samagri",
+      "categorySlug": "festival-kits",
+      "nameHindi": "करवा चौथ पूजन सामग्री",
+      "nameEnglish": "Karva Chauth Pujan Samagri",
+      "details": "With Thali Set",
+      "priceInr": 799,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "karva chauth pujan samagri",
+        "करवा चौथ पूजन सामग्री",
+        "festival-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/karwa-chauth.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Karva Chauth Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Karva Chauth Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Karva Chauth Pujan Samagri (करवा चौथ पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-007",
+      "sno": 7,
+      "slug": "bhoomi-pujan-neev-pujan-samagri",
+      "categorySlug": "devta-vishesh-kits",
+      "nameHindi": "भूमि पूजन / नींव पूजन सामग्री",
+      "nameEnglish": "Bhoomi Pujan / Neev Pujan Samagri",
+      "details": "35+ Items",
+      "priceInr": 799,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "bhoomi pujan / neev pujan samagri",
+        "भूमि पूजन / नींव पूजन सामग्री",
+        "devta-vishesh-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/bhoomi-poojan-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Bhoomi Pujan / Neev Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Bhoomi Pujan / Neev Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Bhoomi Pujan / Neev Pujan Samagri (भूमि पूजन / नींव पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-008",
+      "sno": 8,
+      "slug": "satyanarayan-pujan-samagri",
+      "categorySlug": "vrat-katha-kits",
+      "nameHindi": "सत्यनारायण पूजन सामग्री",
+      "nameEnglish": "Satyanarayan Pujan Samagri",
+      "details": "With Havan Samagri",
+      "priceInr": 699,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "satyanarayan pujan samagri",
+        "सत्यनारायण पूजन सामग्री",
+        "vrat-katha-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Satyanarayan Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Satyanarayan Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Satyanarayan Pujan Samagri (सत्यनारायण पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-009",
+      "sno": 9,
+      "slug": "sai-baba-pujan-samagri",
+      "categorySlug": "devta-vishesh-kits",
+      "nameHindi": "साईं बाबा पूजन सामग्री",
+      "nameEnglish": "Sai Baba Pujan Samagri",
+      "details": "With Book",
+      "priceInr": 599,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "sai baba pujan samagri",
+        "साईं बाबा पूजन सामग्री",
+        "devta-vishesh-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/sai-baba-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Sai Baba Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Sai Baba Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Sai Baba Pujan Samagri (साईं बाबा पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-010",
+      "sno": 10,
+      "slug": "griha-pravesh-havan-pujan-samagri",
+      "categorySlug": "devta-vishesh-kits",
+      "nameHindi": "मकान / दुकान गृह प्रवेश हवन पूजन सामग्री",
+      "nameEnglish": "Griha Pravesh Havan Pujan Samagri",
+      "details": "Complete Set",
+      "priceInr": 699,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "griha pravesh havan pujan samagri",
+        "मकान / दुकान गृह प्रवेश हवन पूजन सामग्री",
+        "devta-vishesh-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/griha-pravesh-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Griha Pravesh Havan Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Griha Pravesh Havan Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Griha Pravesh Havan Pujan Samagri (मकान / दुकान गृह प्रवेश हवन पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-011",
+      "sno": 11,
+      "slug": "mundan-pujan-samagri",
+      "categorySlug": "devta-vishesh-kits",
+      "nameHindi": "मुंडन पूजन सामग्री",
+      "nameEnglish": "Mundan Pujan Samagri",
+      "details": "All Items Included",
+      "priceInr": 799,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "mundan pujan samagri",
+        "मुंडन पूजन सामग्री",
+        "devta-vishesh-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/mundan-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Mundan Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Mundan Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Mundan Pujan Samagri (मुंडन पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-012",
+      "sno": 12,
+      "slug": "mahamrityunjay-paath-pujan-samagri",
+      "categorySlug": "devta-vishesh-kits",
+      "nameHindi": "महामृत्युंजय पाठ पूजन सामग्री",
+      "nameEnglish": "Mahamrityunjay Paath Pujan Samagri",
+      "details": "All Items Included",
+      "priceInr": 899,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "mahamrityunjay paath pujan samagri",
+        "महामृत्युंजय पाठ पूजन सामग्री",
+        "devta-vishesh-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/mahamrityunjay-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Mahamrityunjay Paath Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Mahamrityunjay Paath Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Mahamrityunjay Paath Pujan Samagri (महामृत्युंजय पाठ पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-013",
+      "sno": 13,
+      "slug": "rakshabandhan-puja-set",
+      "categorySlug": "festival-kits",
+      "nameHindi": "रक्षाबंधन पूजा सेट",
+      "nameEnglish": "Rakshabandhan Puja Set",
+      "details": "With Rakhi",
+      "priceInr": 349,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "rakshabandhan puja set",
+        "रक्षाबंधन पूजा सेट",
+        "festival-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Rakshabandhan Puja Set sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Rakshabandhan Puja Set | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Rakshabandhan Puja Set (रक्षाबंधन पूजा सेट) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-014",
+      "sno": 14,
+      "slug": "maa-baglamukhi-pujan-samagri",
+      "categorySlug": "devta-vishesh-kits",
+      "nameHindi": "माँ बगलामुखी पूजन सामग्री",
+      "nameEnglish": "Maa Baglamukhi Pujan Samagri",
+      "details": "25+ Items",
+      "priceInr": 699,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "maa baglamukhi pujan samagri",
+        "माँ बगलामुखी पूजन सामग्री",
+        "devta-vishesh-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/baglamukhi-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Maa Baglamukhi Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Maa Baglamukhi Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Maa Baglamukhi Pujan Samagri (माँ बगलामुखी पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-015",
+      "sno": 15,
+      "slug": "graha-shanti-pujan-samagri",
+      "categorySlug": "devta-vishesh-kits",
+      "nameHindi": "चन्द्र ग्रह, सूर्य ग्रह शांति पूजन सामग्री",
+      "nameEnglish": "Graha Shanti Pujan Samagri",
+      "details": "Complete Kit",
+      "priceInr": 799,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "graha shanti pujan samagri",
+        "चन्द्र ग्रह, सूर्य ग्रह शांति पूजन सामग्री",
+        "devta-vishesh-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/graha-shanti-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Graha Shanti Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Graha Shanti Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Graha Shanti Pujan Samagri (चन्द्र ग्रह, सूर्य ग्रह शांति पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-016",
+      "sno": 16,
+      "slug": "kaal-bhairav-pujan-samagri",
+      "categorySlug": "devta-vishesh-kits",
+      "nameHindi": "काल भैरव पूजन सामग्री",
+      "nameEnglish": "Kaal Bhairav Pujan Samagri",
+      "details": "Standard Kit",
+      "priceInr": 399,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "kaal bhairav pujan samagri",
+        "काल भैरव पूजन सामग्री",
+        "devta-vishesh-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/kaal-bhairav-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Kaal Bhairav Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Kaal Bhairav Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Kaal Bhairav Pujan Samagri (काल भैरव पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-017",
+      "sno": 17,
+      "slug": "naya-vahan-pujan-samagri",
+      "categorySlug": "devta-vishesh-kits",
+      "nameHindi": "नया वाहन पूजन सामग्री",
+      "nameEnglish": "Naya Vahan Pujan Samagri",
+      "details": "Standard Kit",
+      "priceInr": 599,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "naya vahan pujan samagri",
+        "नया वाहन पूजन सामग्री",
+        "devta-vishesh-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/naya-vahan-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Naya Vahan Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Naya Vahan Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Naya Vahan Pujan Samagri (नया वाहन पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-018",
+      "sno": 18,
+      "slug": "pradosh-vrat-pujan-samagri",
+      "categorySlug": "vrat-katha-kits",
+      "nameHindi": "प्रदोष व्रत पूजन सामग्री",
+      "nameEnglish": "Pradosh Vrat Pujan Samagri",
+      "details": "With Book",
+      "priceInr": 599,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "pradosh vrat pujan samagri",
+        "प्रदोष व्रत पूजन सामग्री",
+        "vrat-katha-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/pradosh-vrat-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Pradosh Vrat Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Pradosh Vrat Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Pradosh Vrat Pujan Samagri (प्रदोष व्रत पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-019",
+      "sno": 19,
+      "slug": "kaal-sarp-dosh-pujan-samagri",
+      "categorySlug": "devta-vishesh-kits",
+      "nameHindi": "काल सर्प दोष पूजन सामग्री",
+      "nameEnglish": "Kaal Sarp Dosh Pujan Samagri",
+      "details": "Standard Kit",
+      "priceInr": 499,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "kaal sarp dosh pujan samagri",
+        "काल सर्प दोष पूजन सामग्री",
+        "devta-vishesh-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/kaal-sarp-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Kaal Sarp Dosh Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Kaal Sarp Dosh Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Kaal Sarp Dosh Pujan Samagri (काल सर्प दोष पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-020",
+      "sno": 20,
+      "slug": "tulsi-vivah-pujan-samagri",
+      "categorySlug": "festival-kits",
+      "nameHindi": "तुलसी विवाह पूजन सामग्री",
+      "nameEnglish": "Tulsi Vivah Pujan Samagri",
+      "details": "Standard Kit",
+      "priceInr": 699,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "tulsi vivah pujan samagri",
+        "तुलसी विवाह पूजन सामग्री",
+        "festival-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Tulsi Vivah Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Tulsi Vivah Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Tulsi Vivah Pujan Samagri (तुलसी विवाह पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-021",
+      "sno": 21,
+      "slug": "sunderkand-pujan-samagri",
+      "categorySlug": "vrat-katha-kits",
+      "nameHindi": "सुंदरकांड पूजन सामग्री",
+      "nameEnglish": "Sunderkand Pujan Samagri",
+      "details": "Standard Kit",
+      "priceInr": 499,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "sunderkand pujan samagri",
+        "सुंदरकांड पूजन सामग्री",
+        "vrat-katha-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/sunderkand-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Sunderkand Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Sunderkand Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Sunderkand Pujan Samagri (सुंदरकांड पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-022",
+      "sno": 22,
+      "slug": "rudra-abhishek-pujan-samagri",
+      "categorySlug": "devta-vishesh-kits",
+      "nameHindi": "रुद्र अभिषेक पूजन सामग्री",
+      "nameEnglish": "Rudra Abhishek Pujan Samagri",
+      "details": "Standard Kit",
+      "priceInr": 699,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "rudra abhishek pujan samagri",
+        "रुद्र अभिषेक पूजन सामग्री",
+        "devta-vishesh-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/rudra-abhishek-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Rudra Abhishek Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Rudra Abhishek Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Rudra Abhishek Pujan Samagri (रुद्र अभिषेक पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-023",
+      "sno": 23,
+      "slug": "mangala-gauri-pujan-samagri-udyapan",
+      "categorySlug": "vrat-katha-kits",
+      "nameHindi": "मंगला गौरी पूजन सामग्री (उद्यापन)",
+      "nameEnglish": "Mangala Gauri Pujan Samagri (Udyapan)",
+      "details": "With Book",
+      "priceInr": 699,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "mangala gauri pujan samagri (udyapan)",
+        "मंगला गौरी पूजन सामग्री (उद्यापन)",
+        "vrat-katha-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/mangala-gauri-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Mangala Gauri Pujan Samagri (Udyapan) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Mangala Gauri Pujan Samagri (Udyapan) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Mangala Gauri Pujan Samagri (Udyapan) (मंगला गौरी पूजन सामग्री (उद्यापन)) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-024",
+      "sno": 24,
+      "slug": "sankranti-pujan-samagri",
+      "categorySlug": "festival-kits",
+      "nameHindi": "संक्रांति पूजन सामग्री",
+      "nameEnglish": "Sankranti Pujan Samagri",
+      "details": "Standard Kit",
+      "priceInr": 599,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "sankranti pujan samagri",
+        "संक्रांति पूजन सामग्री",
+        "festival-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Sankranti Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Sankranti Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Sankranti Pujan Samagri (संक्रांति पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-025",
+      "sno": 25,
+      "slug": "diwali-dhanteras-pujan-samagri-5-day",
+      "categorySlug": "festival-kits",
+      "nameHindi": "दिवाली, धनतेरस, गोवर्धन पूजन सामग्री",
+      "nameEnglish": "Diwali & Dhanteras Pujan Samagri (5-Day)",
+      "details": "Pack of 5 Days Festival Items",
+      "priceInr": 2199,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "diwali & dhanteras pujan samagri (5-day)",
+        "दिवाली, धनतेरस, गोवर्धन पूजन सामग्री",
+        "festival-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit-diwali.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Diwali & Dhanteras Pujan Samagri (5-Day) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Diwali & Dhanteras Pujan Samagri (5-Day) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Diwali & Dhanteras Pujan Samagri (5-Day) (दिवाली, धनतेरस, गोवर्धन पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-026",
+      "sno": 26,
+      "slug": "mahashivratri-pujan-samagri-kit",
+      "categorySlug": "festival-kits",
+      "nameHindi": "महाशिवरात्रि पूजन सामग्री किट",
+      "nameEnglish": "Mahashivratri Pujan Samagri Kit",
+      "details": "Complete Kit",
+      "priceInr": 599,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "mahashivratri pujan samagri kit",
+        "महाशिवरात्रि पूजन सामग्री किट",
+        "festival-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Mahashivratri Pujan Samagri Kit sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Mahashivratri Pujan Samagri Kit | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Mahashivratri Pujan Samagri Kit (महाशिवरात्रि पूजन सामग्री किट) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-027",
+      "sno": 27,
+      "slug": "holika-dahan-holi-pujan-samagri",
+      "categorySlug": "festival-kits",
+      "nameHindi": "होली दहन / होली पूजन सामग्री",
+      "nameEnglish": "Holika Dahan / Holi Pujan Samagri",
+      "details": "Standard Kit",
+      "priceInr": 499,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "holika dahan / holi pujan samagri",
+        "होली दहन / होली पूजन सामग्री",
+        "festival-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Holika Dahan / Holi Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Holika Dahan / Holi Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Holika Dahan / Holi Pujan Samagri (होली दहन / होली पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-028",
+      "sno": 28,
+      "slug": "hariyali-teej-pujan-samagri",
+      "categorySlug": "festival-kits",
+      "nameHindi": "हरियाली तीज पूजन सामग्री",
+      "nameEnglish": "Hariyali Teej Pujan Samagri",
+      "details": "Standard Kit",
+      "priceInr": 499,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "hariyali teej pujan samagri",
+        "हरियाली तीज पूजन सामग्री",
+        "festival-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Hariyali Teej Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Hariyali Teej Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Hariyali Teej Pujan Samagri (हरियाली तीज पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-029",
+      "sno": 29,
+      "slug": "nag-panchami-pujan-samagri",
+      "categorySlug": "festival-kits",
+      "nameHindi": "नाग पंचमी पूजन सामग्री",
+      "nameEnglish": "Nag Panchami Pujan Samagri",
+      "details": "Standard Kit",
+      "priceInr": 499,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "nag panchami pujan samagri",
+        "नाग पंचमी पूजन सामग्री",
+        "festival-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Nag Panchami Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Nag Panchami Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Nag Panchami Pujan Samagri (नाग पंचमी पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-030",
+      "sno": 30,
+      "slug": "shri-krishna-janmashtami-pujan-samagri",
+      "categorySlug": "festival-kits",
+      "nameHindi": "श्रीकृष्ण जन्माष्टमी पूजन सामग्री",
+      "nameEnglish": "Shri Krishna Janmashtami Pujan Samagri",
+      "details": "Complete Kit",
+      "priceInr": 599,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "shri krishna janmashtami pujan samagri",
+        "श्रीकृष्ण जन्माष्टमी पूजन सामग्री",
+        "festival-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit-janmashtami.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Shri Krishna Janmashtami Pujan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Shri Krishna Janmashtami Pujan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Shri Krishna Janmashtami Pujan Samagri (श्रीकृष्ण जन्माष्टमी पूजन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-031",
+      "sno": 31,
+      "slug": "purnima-pujan-samagri-kit",
+      "categorySlug": "vrat-katha-kits",
+      "nameHindi": "पूर्णिमा पूजन सामग्री किट",
+      "nameEnglish": "Purnima Pujan Samagri Kit",
+      "details": "Standard Kit",
+      "priceInr": 499,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "purnima pujan samagri kit",
+        "पूर्णिमा पूजन सामग्री किट",
+        "vrat-katha-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/purnima-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Purnima Pujan Samagri Kit sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Purnima Pujan Samagri Kit | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Purnima Pujan Samagri Kit (पूर्णिमा पूजन सामग्री किट) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-032",
+      "sno": 32,
+      "slug": "purnima-pujan-samagri-kit-with-havan",
+      "categorySlug": "vrat-katha-kits",
+      "nameHindi": "पूर्णिमा पूजन सामग्री किट (हवन के साथ)",
+      "nameEnglish": "Purnima Pujan Samagri Kit (With Havan)",
+      "details": "With Havan Samagri",
+      "priceInr": 599,
+      "priceType": "fixed",
+      "shippingNote": "Free Shipping",
+      "searchKeywords": [
+        "purnima pujan samagri kit (with havan)",
+        "पूर्णिमा पूजन सामग्री किट (हवन के साथ)",
+        "vrat-katha-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/purnima-havan-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Purnima Pujan Samagri Kit (With Havan) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Purnima Pujan Samagri Kit (With Havan) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Purnima Pujan Samagri Kit (With Havan) (पूर्णिमा पूजन सामग्री किट (हवन के साथ)) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-033",
+      "sno": 33,
+      "slug": "roli-kumkum",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "रोली",
+      "nameEnglish": "Roli (Kumkum)",
+      "details": "50g Pack",
+      "priceInr": 20,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "roli (kumkum)",
+        "रोली",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/roli.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Roli (Kumkum) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Roli (Kumkum) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Roli (Kumkum) (रोली) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-034",
+      "sno": 34,
+      "slug": "moli-kalawa",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "मौली / कलावा",
+      "nameEnglish": "Moli / Kalawa",
+      "details": "1 Roll",
+      "priceInr": 10,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "moli / kalawa",
+        "मौली / कलावा",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/moli.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Moli / Kalawa sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Moli / Kalawa | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Moli / Kalawa (मौली / कलावा) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-035",
+      "sno": 35,
+      "slug": "puja-supari",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "सुपारी",
+      "nameEnglish": "Puja Supari",
+      "details": "11 Pieces",
+      "priceInr": 30,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "puja supari",
+        "सुपारी",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/supari.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Puja Supari sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Puja Supari | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Puja Supari (सुपारी) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-036",
+      "sno": 36,
+      "slug": "laung-cloves",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "लौंग",
+      "nameEnglish": "Laung (Cloves)",
+      "details": "50g Pack",
+      "priceInr": 40,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "laung (cloves)",
+        "लौंग",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/laung.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Laung (Cloves) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Laung (Cloves) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Laung (Cloves) (लौंग) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-037",
+      "sno": 37,
+      "slug": "elaichi-cardamom",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "इलायची",
+      "nameEnglish": "Elaichi (Cardamom)",
+      "details": "50g Pack",
+      "priceInr": 60,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "elaichi (cardamom)",
+        "इलायची",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/elaichi.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Elaichi (Cardamom) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Elaichi (Cardamom) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Elaichi (Cardamom) (इलायची) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-038",
+      "sno": 38,
+      "slug": "bhimsaini-kapoor-camphor",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "कपूर (भीमसेनी)",
+      "nameEnglish": "Bhimsaini Kapoor (Camphor)",
+      "details": "100g Jar",
+      "priceInr": 100,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "bhimsaini kapoor (camphor)",
+        "कपूर (भीमसेनी)",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kapoor.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Bhimsaini Kapoor (Camphor) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Bhimsaini Kapoor (Camphor) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Bhimsaini Kapoor (Camphor) (कपूर (भीमसेनी)) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-039",
+      "sno": 39,
+      "slug": "kapoor-tablets",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "कपूर (टिक्की)",
+      "nameEnglish": "Kapoor Tablets",
+      "details": "50g Pack",
+      "priceInr": 40,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "kapoor tablets",
+        "कपूर (टिक्की)",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kapoor.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Kapoor Tablets sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Kapoor Tablets | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Kapoor Tablets (कपूर (टिक्की)) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-040",
+      "sno": 40,
+      "slug": "chandan-powder",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "चंदन पाउडर",
+      "nameEnglish": "Chandan Powder",
+      "details": "50g Pack",
+      "priceInr": 50,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "chandan powder",
+        "चंदन पाउडर",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/chandan-new.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Chandan Powder sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Chandan Powder | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Chandan Powder (चंदन पाउडर) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-041",
+      "sno": 41,
+      "slug": "white-chandan-teeka",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "चन्दन टीका सफेद",
+      "nameEnglish": "White Chandan Teeka",
+      "details": "Small Box",
+      "priceInr": 30,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "white chandan teeka",
+        "चन्दन टीका सफेद",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/chandan-tilak.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic White Chandan Teeka sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "White Chandan Teeka | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic White Chandan Teeka (चन्दन टीका सफेद) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-042",
+      "sno": 42,
+      "slug": "red-chandan-teeka",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "चन्दन टीका लाल",
+      "nameEnglish": "Red Chandan Teeka",
+      "details": "Small Box",
+      "priceInr": 30,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "red chandan teeka",
+        "चन्दन टीका लाल",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/chandan-tilak.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Red Chandan Teeka sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Red Chandan Teeka | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Red Chandan Teeka (चन्दन टीका लाल) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-043",
+      "sno": 43,
+      "slug": "gopi-chandan",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "गोपी चन्दन",
+      "nameEnglish": "Gopi Chandan",
+      "details": "1 Block",
+      "priceInr": 25,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "gopi chandan",
+        "गोपी चन्दन",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/gopi-chandan.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Gopi Chandan sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Gopi Chandan | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Gopi Chandan (गोपी चन्दन) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-044",
+      "sno": 44,
+      "slug": "jau-barley",
+      "categorySlug": "havan-samagri",
+      "nameHindi": "जौ",
+      "nameEnglish": "Jau (Barley)",
+      "details": "100g Pack",
+      "priceInr": 20,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "jau (barley)",
+        "जौ",
+        "havan-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Jau (Barley) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Jau (Barley) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Jau (Barley) (जौ) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-045",
+      "sno": 45,
+      "slug": "indra-jau",
+      "categorySlug": "havan-samagri",
+      "nameHindi": "इन्द्र जौ",
+      "nameEnglish": "Indra Jau",
+      "details": "50g Pack",
+      "priceInr": 40,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "indra jau",
+        "इन्द्र जौ",
+        "havan-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Indra Jau sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Indra Jau | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Indra Jau (इन्द्र जौ) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-046",
+      "sno": 46,
+      "slug": "kale-til-black-sesame",
+      "categorySlug": "havan-samagri",
+      "nameHindi": "काले तिल",
+      "nameEnglish": "Kale Til (Black Sesame)",
+      "details": "100g Pack",
+      "priceInr": 25,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "kale til (black sesame)",
+        "काले तिल",
+        "havan-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Kale Til (Black Sesame) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Kale Til (Black Sesame) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Kale Til (Black Sesame) (काले तिल) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-047",
+      "sno": 47,
+      "slug": "janeu-safed-white-sacred-thread",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "जनेऊ सफेद",
+      "nameEnglish": "Janeu Safed (White Sacred Thread)",
+      "details": "5 Pairs",
+      "priceInr": 20,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "janeu safed (white sacred thread)",
+        "जनेऊ सफेद",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/janeu.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Janeu Safed (White Sacred Thread) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Janeu Safed (White Sacred Thread) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Janeu Safed (White Sacred Thread) (जनेऊ सफेद) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-048",
+      "sno": 48,
+      "slug": "janeu-peela-yellow-sacred-thread",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "जनेऊ पीला",
+      "nameEnglish": "Janeu Peela (Yellow Sacred Thread)",
+      "details": "5 Pairs",
+      "priceInr": 25,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "janeu peela (yellow sacred thread)",
+        "जनेऊ पीला",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/janeu.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Janeu Peela (Yellow Sacred Thread) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Janeu Peela (Yellow Sacred Thread) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Janeu Peela (Yellow Sacred Thread) (जनेऊ पीला) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-049",
+      "sno": 49,
+      "slug": "loban",
+      "categorySlug": "incense",
+      "nameHindi": "लोबान",
+      "nameEnglish": "Loban",
+      "details": "100g Pack",
+      "priceInr": 60,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "loban",
+        "लोबान",
+        "incense"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/lobhan-guggal.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Loban sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Loban | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Loban (लोबान) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-050",
+      "sno": 50,
+      "slug": "kaudiya-loban",
+      "categorySlug": "incense",
+      "nameHindi": "कौड़िया लोबान",
+      "nameEnglish": "Kaudiya Loban",
+      "details": "100g Pack",
+      "priceInr": 80,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "kaudiya loban",
+        "कौड़िया लोबान",
+        "incense"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/lobhan-guggal.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Kaudiya Loban sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Kaudiya Loban | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Kaudiya Loban (कौड़िया लोबान) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-051",
+      "sno": 51,
+      "slug": "guggul",
+      "categorySlug": "incense",
+      "nameHindi": "गुग्गल",
+      "nameEnglish": "Guggul",
+      "details": "100g Pack",
+      "priceInr": 80,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "guggul",
+        "गुग्गल",
+        "incense"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/lobhan-guggal.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Guggul sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Guggul | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Guggul (गुग्गल) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-052",
+      "sno": 52,
+      "slug": "water-coconut-nariyal",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "नारियल पानी वाला",
+      "nameEnglish": "Water Coconut (Nariyal)",
+      "details": "1 Piece",
+      "priceInr": 40,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "water coconut (nariyal)",
+        "नारियल पानी वाला",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/nariyal.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Water Coconut (Nariyal) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Water Coconut (Nariyal) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Water Coconut (Nariyal) (नारियल पानी वाला) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-053",
+      "sno": 53,
+      "slug": "dry-coconut-gola",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "गोला / सूखा नारियल",
+      "nameEnglish": "Dry Coconut (Gola)",
+      "details": "1 Piece",
+      "priceInr": 60,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "dry coconut (gola)",
+        "गोला / सूखा नारियल",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/nariyal.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Dry Coconut (Gola) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Dry Coconut (Gola) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Dry Coconut (Gola) (गोला / सूखा नारियल) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-054",
+      "sno": 54,
+      "slug": "kamal-gatte-lotus-seeds",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "कमल गट्टे",
+      "nameEnglish": "Kamal Gatte (Lotus Seeds)",
+      "details": "21 Pieces",
+      "priceInr": 30,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "kamal gatte (lotus seeds)",
+        "कमल गट्टे",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kamal-gatta.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Kamal Gatte (Lotus Seeds) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Kamal Gatte (Lotus Seeds) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Kamal Gatte (Lotus Seeds) (कमल गट्टे) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-055",
+      "sno": 55,
+      "slug": "jaiphal-nutmeg",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "जायफल",
+      "nameEnglish": "Jaiphal (Nutmeg)",
+      "details": "5 Pieces",
+      "priceInr": 20,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "jaiphal (nutmeg)",
+        "जायफल",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/jaiphal.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Jaiphal (Nutmeg) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Jaiphal (Nutmeg) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Jaiphal (Nutmeg) (जायफल) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-056",
+      "sno": 56,
+      "slug": "dhoop-batti",
+      "categorySlug": "incense",
+      "nameHindi": "धूपबत्ती",
+      "nameEnglish": "Dhoop Batti",
+      "details": "1 Packet",
+      "priceInr": 30,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "dhoop batti",
+        "धूपबत्ती",
+        "incense"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/dhoop.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Dhoop Batti sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Dhoop Batti | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Dhoop Batti (धूपबत्ती) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-057",
+      "sno": 57,
+      "slug": "agarbatti",
+      "categorySlug": "incense",
+      "nameHindi": "अगरबत्ती",
+      "nameEnglish": "Agarbatti",
+      "details": "1 Packet",
+      "priceInr": 40,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "agarbatti",
+        "अगरबत्ती",
+        "incense"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/agarbatti.jpg"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Agarbatti sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Agarbatti | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Agarbatti (अगरबत्ती) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-058",
+      "sno": 58,
+      "slug": "ganga-jal",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "गंगा जल",
+      "nameEnglish": "Ganga Jal",
+      "details": "Medium Bottle",
+      "priceInr": 40,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "ganga jal",
+        "गंगा जल",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/gangajal.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Ganga Jal sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Ganga Jal | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Ganga Jal (गंगा जल) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-059",
+      "sno": 59,
+      "slug": "peeli-kaudi",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "पीली कौड़ी",
+      "nameEnglish": "Peeli Kaudi",
+      "details": "11 Pieces",
+      "priceInr": 25,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "peeli kaudi",
+        "पीली कौड़ी",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/peeli-kaudi.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Peeli Kaudi sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Peeli Kaudi | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Peeli Kaudi (पीली कौड़ी) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-060",
+      "sno": 60,
+      "slug": "puja-attar-itra",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "इत्र",
+      "nameEnglish": "Puja Attar (Itra)",
+      "details": "Small Bottle",
+      "priceInr": 50,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "puja attar (itra)",
+        "इत्र",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/puja-attar.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Puja Attar (Itra) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Puja Attar (Itra) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Puja Attar (Itra) (इत्र) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-061",
+      "sno": 61,
+      "slug": "honey-shahad",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "शहद",
+      "nameEnglish": "Honey (Shahad)",
+      "details": "Small Bottle",
+      "priceInr": 40,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "honey (shahad)",
+        "शहद",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/honey.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Honey (Shahad) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Honey (Shahad) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Honey (Shahad) (शहद) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-062",
+      "sno": 62,
+      "slug": "cotton-wicks-rui-batti",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "रुई / बत्ती",
+      "nameEnglish": "Cotton Wicks (Rui Batti)",
+      "details": "1 Packet",
+      "priceInr": 20,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "cotton wicks (rui batti)",
+        "रुई / बत्ती",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/cotton-batti.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Cotton Wicks (Rui Batti) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Cotton Wicks (Rui Batti) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Cotton Wicks (Rui Batti) (रुई / बत्ती) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-063",
+      "sno": 63,
+      "slug": "gomti-chakra",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "गोमती चक्र",
+      "nameEnglish": "Gomti Chakra",
+      "details": "11 Pieces",
+      "priceInr": 40,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "gomti chakra",
+        "गोमती चक्र",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Gomti Chakra sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Gomti Chakra | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Gomti Chakra (गोमती चक्र) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-064",
+      "sno": 64,
+      "slug": "bel-giri",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "बेल गिरि",
+      "nameEnglish": "Bel Giri",
+      "details": "50g Pack",
+      "priceInr": 50,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "bel giri",
+        "बेल गिरि",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/bel-giri.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Bel Giri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Bel Giri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Bel Giri (बेल गिरि) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-065",
+      "sno": 65,
+      "slug": "havan-samagri",
+      "categorySlug": "havan-samagri",
+      "nameHindi": "हवन सामग्री",
+      "nameEnglish": "Havan Samagri",
+      "details": "250g Pack",
+      "priceInr": 80,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "havan samagri",
+        "हवन सामग्री",
+        "havan-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/havan-samagri.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Havan Samagri sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Havan Samagri | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Havan Samagri (हवन सामग्री) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-066",
+      "sno": 66,
+      "slug": "puja-asan",
+      "categorySlug": "temple-accessories",
+      "nameHindi": "पूजा आसन",
+      "nameEnglish": "Puja Asan",
+      "details": "1 Piece",
+      "priceInr": 60,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "puja asan",
+        "पूजा आसन",
+        "temple-accessories"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Puja Asan sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Puja Asan | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Puja Asan (पूजा आसन) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-067",
+      "sno": 67,
+      "slug": "puja-cloth-1-25m-all-colors",
+      "categorySlug": "temple-accessories",
+      "nameHindi": "पूजा का कपड़ा (सवा मीटर)",
+      "nameEnglish": "Puja Cloth (1.25m, All Colors)",
+      "details": "1.25 Meters",
+      "priceInr": 50,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "puja cloth (1.25m, all colors)",
+        "पूजा का कपड़ा (सवा मीटर)",
+        "temple-accessories"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Puja Cloth (1.25m, All Colors) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Puja Cloth (1.25m, All Colors) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Puja Cloth (1.25m, All Colors) (पूजा का कपड़ा (सवा मीटर)) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-068",
+      "sno": 68,
+      "slug": "navgraha-lakdi",
+      "categorySlug": "havan-samagri",
+      "nameHindi": "नवग्रह लकड़ी",
+      "nameEnglish": "Navgraha Lakdi",
+      "details": "1 Set",
+      "priceInr": 70,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "navgraha lakdi",
+        "नवग्रह लकड़ी",
+        "havan-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Navgraha Lakdi sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Navgraha Lakdi | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Navgraha Lakdi (नवग्रह लकड़ी) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-069",
+      "sno": 69,
+      "slug": "kaccha-soot",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "कच्चा सूत",
+      "nameEnglish": "Kaccha Soot",
+      "details": "1 Roll",
+      "priceInr": 20,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "kaccha soot",
+        "कच्चा सूत",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kaccha-soot.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Kaccha Soot sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Kaccha Soot | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Kaccha Soot (कच्चा सूत) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-070",
+      "sno": 70,
+      "slug": "gulab-jal-rose-water",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "गुलाब जल",
+      "nameEnglish": "Gulab Jal (Rose Water)",
+      "details": "Medium Bottle",
+      "priceInr": 30,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "gulab jal (rose water)",
+        "गुलाब जल",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/gulab-jal.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Gulab Jal (Rose Water) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Gulab Jal (Rose Water) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Gulab Jal (Rose Water) (गुलाब जल) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-071",
+      "sno": 71,
+      "slug": "bhoj-patra",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "भोज पत्र",
+      "nameEnglish": "Bhoj Patra",
+      "details": "3 Leaves",
+      "priceInr": 20,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "bhoj patra",
+        "भोज पत्र",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/bhoj-patra.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Bhoj Patra sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Bhoj Patra | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Bhoj Patra (भोज पत्र) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-072",
+      "sno": 72,
+      "slug": "chandan-wood-stick",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "चन्दन की लकड़ी",
+      "nameEnglish": "Chandan Wood Stick",
+      "details": "1 Piece",
+      "priceInr": 90,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "chandan wood stick",
+        "चन्दन की लकड़ी",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/wood-chandan.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Chandan Wood Stick sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Chandan Wood Stick | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Chandan Wood Stick (चन्दन की लकड़ी) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-073",
+      "sno": 73,
+      "slug": "jatamasi",
+      "categorySlug": "havan-samagri",
+      "nameHindi": "जटामासी",
+      "nameEnglish": "Jatamasi",
+      "details": "50g Pack",
+      "priceInr": 60,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "jatamasi",
+        "जटामासी",
+        "havan-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Jatamasi sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Jatamasi | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Jatamasi (जटामासी) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-074",
+      "sno": 74,
+      "slug": "ashwagandha",
+      "categorySlug": "havan-samagri",
+      "nameHindi": "अश्वगंधा",
+      "nameEnglish": "Ashwagandha",
+      "details": "50g Pack",
+      "priceInr": 50,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "ashwagandha",
+        "अश्वगंधा",
+        "havan-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Ashwagandha sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Ashwagandha | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Ashwagandha (अश्वगंधा) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-075",
+      "sno": 75,
+      "slug": "agar-wood",
+      "categorySlug": "havan-samagri",
+      "nameHindi": "अगर",
+      "nameEnglish": "Agar Wood",
+      "details": "50g Pack",
+      "priceInr": 80,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "agar wood",
+        "अगर",
+        "havan-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Agar Wood sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Agar Wood | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Agar Wood (अगर) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-076",
+      "sno": 76,
+      "slug": "tagar",
+      "categorySlug": "havan-samagri",
+      "nameHindi": "तगर",
+      "nameEnglish": "Tagar",
+      "details": "50g Pack",
+      "priceInr": 60,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "tagar",
+        "तगर",
+        "havan-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kit.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Tagar sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Tagar | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Tagar (तगर) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-077",
+      "sno": 77,
+      "slug": "samudri-jhag",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "समुद्री झाग",
+      "nameEnglish": "Samudri Jhag",
+      "details": "50g Pack",
+      "priceInr": 30,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "samudri jhag",
+        "समुद्री झाग",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/samudri-jhag.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Samudri Jhag sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Samudri Jhag | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Samudri Jhag (समुद्री झाग) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-078",
+      "sno": 78,
+      "slug": "gaumutra",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "गौमूत्र",
+      "nameEnglish": "Gaumutra",
+      "details": "Small Bottle",
+      "priceInr": 30,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "gaumutra",
+        "गौमूत्र",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/gaumutra.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Gaumutra sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Gaumutra | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Gaumutra (गौमूत्र) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-079",
+      "sno": 79,
+      "slug": "gandmool-kit",
+      "categorySlug": "devta-vishesh-kits",
+      "nameHindi": "गंडमूल किट",
+      "nameEnglish": "Gandmool Kit",
+      "details": "Complete Kit",
+      "priceInr": 199,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "gandmool kit",
+        "गंडमूल किट",
+        "devta-vishesh-kits"
+      ],
+      "images": {
+        "paths": [
+          "/images/kits/gandmool-kit.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Gandmool Kit sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Gandmool Kit | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Gandmool Kit (गंडमूल किट) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-080",
+      "sno": 80,
+      "slug": "panch-ratna",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "पंच रत्न",
+      "nameEnglish": "Panch Ratna",
+      "details": "1 Pack",
+      "priceInr": 50,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "panch ratna",
+        "पंच रत्न",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/panch-ratna.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Panch Ratna sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Panch Ratna | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Panch Ratna (पंच रत्न) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-081",
+      "sno": 81,
+      "slug": "aalta",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "आलता / महावर",
+      "nameEnglish": "Aalta",
+      "details": "1 Bottle",
+      "priceInr": 20,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "aalta",
+        "आलता / महावर",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/aalta.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Aalta sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Aalta | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Aalta (आलता / महावर) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-082",
+      "sno": 82,
+      "slug": "gorochan",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "गोरोचन",
+      "nameEnglish": "Gorochan",
+      "details": "Small Box",
+      "priceInr": 80,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "gorochan",
+        "गोरोचन",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/gorochan.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Gorochan sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Gorochan | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Gorochan (गोरोचन) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-083",
+      "sno": 83,
+      "slug": "ashtagandha",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "अष्टगंध",
+      "nameEnglish": "Ashtagandha",
+      "details": "50g Pack",
+      "priceInr": 40,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "ashtagandha",
+        "अष्टगंध",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/ashtagandha.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Ashtagandha sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Ashtagandha | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Ashtagandha (अष्टगंध) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-084",
+      "sno": 84,
+      "slug": "navratna",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "नवरत्न",
+      "nameEnglish": "Navratna",
+      "details": "1 Pack",
+      "priceInr": 99,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "navratna",
+        "नवरत्न",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/navratna.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Navratna sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Navratna | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Navratna (नवरत्न) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-085",
+      "sno": 85,
+      "slug": "kesar-saffron",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "केसर",
+      "nameEnglish": "Kesar (Saffron)",
+      "details": "1g Box",
+      "priceInr": 150,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "kesar (saffron)",
+        "केसर",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kesar.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Kesar (Saffron) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Kesar (Saffron) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Kesar (Saffron) (केसर) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-086",
+      "sno": 86,
+      "slug": "gulal-abeer",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "गुलाल",
+      "nameEnglish": "Gulal (Abeer)",
+      "details": "100g Pack",
+      "priceInr": 20,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "gulal (abeer)",
+        "गुलाल",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/gulal-abeer.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Gulal (Abeer) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Gulal (Abeer) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Gulal (Abeer) (गुलाल) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-087",
+      "sno": 87,
+      "slug": "27-kuan-ka-pani",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "27 कुआं का पानी",
+      "nameEnglish": "27 Kuan Ka Pani",
+      "details": "1 Bottle",
+      "priceInr": 99,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "27 kuan ka pani",
+        "27 कुआं का पानी",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/27-kuao-ka-pani.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic 27 Kuan Ka Pani sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "27 Kuan Ka Pani | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic 27 Kuan Ka Pani (27 कुआं का पानी) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-088",
+      "sno": 88,
+      "slug": "27-kankar",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "27 कंकड़",
+      "nameEnglish": "27 Kankar",
+      "details": "1 Pack",
+      "priceInr": 30,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "27 kankar",
+        "27 कंकड़",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/27-kankar.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic 27 Kankar sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "27 Kankar | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic 27 Kankar (27 कंकड़) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-089",
+      "sno": 89,
+      "slug": "peeli-sarson",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "पीली सरसों",
+      "nameEnglish": "Peeli Sarson",
+      "details": "50g Pack",
+      "priceInr": 20,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "peeli sarson",
+        "पीली सरसों",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/peeli-sarson.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Peeli Sarson sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Peeli Sarson | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Peeli Sarson (पीली सरसों) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-090",
+      "sno": 90,
+      "slug": "namak-sabut",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "नमक साबुत",
+      "nameEnglish": "Namak Sabut",
+      "details": "100g Pack",
+      "priceInr": 20,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "namak sabut",
+        "नमक साबुत",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/namak-sabut.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Namak Sabut sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Namak Sabut | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Namak Sabut (नमक साबुत) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-091",
+      "sno": 91,
+      "slug": "brass-kalash",
+      "categorySlug": "brass-items",
+      "nameHindi": "कलश पीतल",
+      "nameEnglish": "Brass Kalash",
+      "details": "Medium Size",
+      "priceInr": 250,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "brass kalash",
+        "कलश पीतल",
+        "brass-items"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/brass-kalash.jpg"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Brass Kalash sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Brass Kalash | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Brass Kalash (कलश पीतल) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-092",
+      "sno": 92,
+      "slug": "copper-kalash",
+      "categorySlug": "copper-items",
+      "nameHindi": "कलश तांबा",
+      "nameEnglish": "Copper Kalash",
+      "details": "Medium Size",
+      "priceInr": 250,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "copper kalash",
+        "कलश तांबा",
+        "copper-items"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/brass-kalash.jpg"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Copper Kalash sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Copper Kalash | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Copper Kalash (कलश तांबा) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-093",
+      "sno": 93,
+      "slug": "clay-diya",
+      "categorySlug": "diyas",
+      "nameHindi": "दीया (मिट्टी का)",
+      "nameEnglish": "Clay Diya",
+      "details": "Pack of 11",
+      "priceInr": 20,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "clay diya",
+        "दीया (मिट्टी का)",
+        "diyas"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/diya-clay.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Clay Diya sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Clay Diya | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Clay Diya (दीया (मिट्टी का)) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-094",
+      "sno": 94,
+      "slug": "brass-diya",
+      "categorySlug": "brass-items",
+      "nameHindi": "दीया (पीतल)",
+      "nameEnglish": "Brass Diya",
+      "details": "Medium Size",
+      "priceInr": 150,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "brass diya",
+        "दीया (पीतल)",
+        "brass-items"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/diya.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Brass Diya sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Brass Diya | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Brass Diya (दीया (पीतल)) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-095",
+      "sno": 95,
+      "slug": "akhand-jyot-diya-brass",
+      "categorySlug": "brass-items",
+      "nameHindi": "अखण्ड जोत (पीतल)",
+      "nameEnglish": "Akhand Jyot Diya (Brass)",
+      "details": "Large Size",
+      "priceInr": 299,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "akhand jyot diya (brass)",
+        "अखण्ड जोत (पीतल)",
+        "brass-items"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/diya.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Akhand Jyot Diya (Brass) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Akhand Jyot Diya (Brass) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Akhand Jyot Diya (Brass) (अखण्ड जोत (पीतल)) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-096",
+      "sno": 96,
+      "slug": "til-oil-sesame-oil",
+      "categorySlug": "diyas",
+      "nameHindi": "तिल का तेल",
+      "nameEnglish": "Til Oil (Sesame Oil)",
+      "details": "500ml Bottle",
+      "priceInr": 90,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "til oil (sesame oil)",
+        "तिल का तेल",
+        "diyas"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/diya.webp"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Til Oil (Sesame Oil) sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Til Oil (Sesame Oil) | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Til Oil (Sesame Oil) (तिल का तेल) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-097",
+      "sno": 97,
+      "slug": "rudraksh-mala",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "रुद्राक्ष माला",
+      "nameEnglish": "Rudraksh Mala",
+      "details": "108 Beads",
+      "priceInr": 150,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "rudraksh mala",
+        "रुद्राक्ष माला",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/rudraksh-mala.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Rudraksh Mala sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Rudraksh Mala | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Rudraksh Mala (रुद्राक्ष माला) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-098",
+      "sno": 98,
+      "slug": "tulsi-mala",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "तुलसी माला",
+      "nameEnglish": "Tulsi Mala",
+      "details": "108 Beads",
+      "priceInr": 80,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "tulsi mala",
+        "तुलसी माला",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/tulsi-mala.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": true,
+      "inStock": true,
+      "description": "Authentic Tulsi Mala sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Tulsi Mala | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Tulsi Mala (तुलसी माला) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    },
+    {
+      "id": "VPB-099",
+      "sno": 99,
+      "slug": "kamal-gatte-ki-mala",
+      "categorySlug": "pooja-samagri",
+      "nameHindi": "कमल गट्टे की माला",
+      "nameEnglish": "Kamal Gatte Ki Mala",
+      "details": "108 Beads",
+      "priceInr": 120,
+      "priceType": "fixed",
+      "shippingNote": "",
+      "searchKeywords": [
+        "kamal gatte ki mala",
+        "कमल गट्टे की माला",
+        "pooja-samagri"
+      ],
+      "images": {
+        "paths": [
+          "/images/products/kamal-gatta.png"
+        ],
+        "primaryIndex": 0,
+        "status": "real"
+      },
+      "featured": false,
+      "inStock": true,
+      "description": "Authentic Kamal Gatte Ki Mala sourced directly for your puja needs. Banke Bihari Pujan Samagri Store ensures 100% purity.",
+      "whatsInside": {
+        "status": "pending",
+        "items": []
+      },
+      "seoTitle": "Kamal Gatte Ki Mala | Vishwanath Pooja Bhandar",
+      "metaDescription": "Buy authentic Kamal Gatte Ki Mala (कमल गट्टे की माला) from Vishwanath Pooja Bhandar, Delhi.",
+      "dataStatus": "reviewed"
+    }
+  ]
+}
