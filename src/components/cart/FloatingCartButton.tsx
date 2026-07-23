@@ -1,6 +1,7 @@
 "use client";
 
-import React from "react";
+
+
 import { useCart } from "@/lib/store/CartContext";
 import { ShoppingBag } from "lucide-react";
 import { formatPriceInr } from "@/lib/utils/format-price";

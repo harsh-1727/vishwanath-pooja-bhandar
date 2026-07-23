@@ -15,7 +15,8 @@ import { ShoppingBag, Plus, Minus } from "lucide-react";
 import { useCart } from "@/lib/store/CartContext";
 import { buildWhatsAppLink } from "@/lib/utils/contact-links";
 import { useToast } from "@/components/ui/Toast";
-import React from "react";
+
+
 
 interface ProductCardProps {
   product: Product;

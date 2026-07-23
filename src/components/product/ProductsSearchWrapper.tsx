@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState, useMemo, type ReactNode } from "react";
 import { Search } from "lucide-react";
 import { ProductCard } from "@/components/product/ProductCard";
 import { buildWhatsAppLink } from "@/lib/utils/contact-links";
@@ -8,13 +8,13 @@ import type { Product } from "@/types/product";
 
 interface ProductsSearchWrapperProps {
   allProducts: Product[];
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 export function ProductsSearchWrapper({ allProducts, children }: ProductsSearchWrapperProps) {
   const [query, setQuery] = useState("");
 
-  const searchResults = React.useMemo(() => {
+  const searchResults = useMemo(() => {
     if (!query.trim()) return [];
     
     const lowerQuery = query.toLowerCase().replace(/\s+/g, "");

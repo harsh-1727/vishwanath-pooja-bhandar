@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { getDailyPanchang, type PanchangData } from "@/lib/panchang";
 import { Moon } from "lucide-react";
 import Link from "next/link";

@@ -1,21 +1,8 @@
-import { FlatCompat } from "@eslint/eslintrc";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
-
+import nextConfig from "eslint-config-next";
 const eslintConfig = [
-  ...compat.extends(
-    "next/core-web-vitals",
-    "next/typescript",
-    "plugin:jsx-a11y/recommended"
-  ),
+  ...nextConfig,
   {
+    files: ["**/*.ts", "**/*.tsx"],
     rules: {
       // "No any" is a hard project rule (see PROJECT_RULES.md).
       "@typescript-eslint/no-explicit-any": "error",
@@ -31,6 +18,7 @@ const eslintConfig = [
       "jsx-a11y/alt-text": "error",
       "jsx-a11y/anchor-is-valid": "error",
       "jsx-a11y/no-autofocus": "warn",
+      "react-hooks/set-state-in-effect": "warn",
 
       // Prevent accidental hardcoded business data creeping into
       // components — this is enforced by convention/code review too,

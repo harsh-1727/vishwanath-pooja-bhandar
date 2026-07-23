@@ -16,7 +16,7 @@
  *   - background scroll is locked while open
  */
 
-import { useEffect, useRef, type ReactNode } from "react";
+import { useEffect, useRef, useId, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { X } from "lucide-react";
 import { cn } from "@/lib/utils/cn";
@@ -32,9 +32,7 @@ interface ModalProps {
 export function Modal({ open, onClose, title, children, className }: ModalProps) {
   const dialogRef = useRef<HTMLDivElement>(null);
   const previouslyFocusedRef = useRef<HTMLElement | null>(null);
-  const titleId = useRef(
-    `modal-title-${Math.random().toString(36).slice(2, 9)}`
-  ).current;
+  const titleId = useId();
 
   useEffect(() => {
     if (!open) return;

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import { useCart } from "@/lib/store/CartContext";
 import { Plus, Minus, ShoppingBag, Send, X, Trash2 } from "lucide-react";

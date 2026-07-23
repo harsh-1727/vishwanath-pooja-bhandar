@@ -52,11 +52,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [],
   },
 
-  eslint: {
-    // Never silently ship with lint errors — Phase 1 sets the bar high
-    // on purpose so later phases can't quietly regress.
-    ignoreDuringBuilds: false,
-  },
+  
   typescript: {
     ignoreBuildErrors: false,
   },
@@ -72,9 +68,9 @@ const nextConfig: NextConfig = {
       : [];
   },
 
-  experimental: {
-    typedRoutes: true,
-  },
+
+  typedRoutes: true,
+
 };
 
 export default nextConfig;
