@@ -1,1 +1,0 @@
-export { useRecentSearches } from "./useRecentSearches";
