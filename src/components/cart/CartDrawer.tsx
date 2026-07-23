@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { useCart } from "@/lib/store/CartContext";
 import { Plus, Minus, ShoppingBag, Send, X, Trash2 } from "lucide-react";
@@ -12,6 +12,20 @@ export function CartDrawer() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [address, setAddress] = useState("");
+
+  useEffect(() => {
+    if (isCartOpen) {
+      document.body.style.overflow = "hidden";
+      document.body.setAttribute("data-drawer-open", "true");
+    } else {
+      document.body.style.overflow = "";
+      document.body.removeAttribute("data-drawer-open");
+    }
+    return () => {
+      document.body.style.overflow = "";
+      document.body.removeAttribute("data-drawer-open");
+    };
+  }, [isCartOpen]);
 
   if (!isCartOpen) return null;
 
@@ -45,8 +59,8 @@ export function CartDrawer() {
   return (
     <>
       {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions, jsx-a11y/click-events-have-key-events */}
-      <div className="fixed inset-0 z-50 bg-ink/50 backdrop-blur-sm transition-opacity" onClick={closeCart} />
-      <div className="fixed inset-y-0 right-0 z-50 w-full max-w-md bg-white shadow-xl flex flex-col transform transition-transform duration-300">
+      <div className="fixed inset-0 z-[100] bg-ink/60 backdrop-blur-sm transition-opacity" onClick={closeCart} />
+      <div className="fixed inset-y-0 right-0 z-[101] w-full max-w-md bg-white shadow-xl flex flex-col transform transition-transform duration-300">
         <div className="flex items-center justify-between px-4 py-4 border-b border-ink/10 bg-cream">
           <h2 className="text-xl font-display font-bold flex items-center gap-2 text-ink">
             <ShoppingBag size={20} className="text-saffron" />

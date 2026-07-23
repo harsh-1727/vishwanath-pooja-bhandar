@@ -51,6 +51,18 @@ const celebrationSlides: CelebrationSlide[] = [
   },
 ];
 
+const FESTIVAL_IMAGES: Record<string, string> = {
+  diwali: "/images/festivals/diwali.webp",
+  navratri: "/images/festivals/navratri.webp",
+  "ganesh-chaturthi": "/images/festivals/ganesh.webp",
+  holi: "/images/festivals/holi.webp",
+  janmashtami: "/images/festivals/janmashtami.webp",
+  mahashivratri: "/images/festivals/mahashivratri.png",
+  "karva-chauth": "/images/festivals/karwa-chauth.png",
+  rakshabandhan: "/images/festivals/rakshabandhan.png",
+  "hariyali-teej": "/images/festivals/hariyali-teej.png",
+};
+
 export default function FestivalsPage() {
   const [current, setCurrent] = useState(0);
 
@@ -151,35 +163,66 @@ export default function FestivalsPage() {
 
         {/* Festival Cards Grid */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {festivalConfig.map((festival) => (
-            <div
-              key={festival.slug}
-              className="group flex flex-col justify-between rounded-card border border-ink/10 bg-base p-6 shadow-sm hover:shadow-md transition-all duration-300"
-            >
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-wider text-gold">
-                  {monthRangeLabel(festival.typicalMonths)}
-                </p>
-                <h2 className="mt-2 font-display text-2xl text-ink group-hover:text-saffron transition-colors duration-200">
-                  {festival.nameEnglish}
-                </h2>
-                <p className="mt-0.5 font-devanagari text-base text-ink/40">
-                  {festival.nameHindi}
-                </p>
-                <p className="mt-3 text-sm leading-relaxed text-ink/60">
-                  {festival.shortDescription}
-                </p>
+          {festivalConfig.map((festival) => {
+            const imgPath = FESTIVAL_IMAGES[festival.slug];
+            return (
+              <div
+                key={festival.slug}
+                className="group flex flex-col justify-between overflow-hidden rounded-card border border-ink/10 bg-base shadow-sm hover:shadow-md transition-all duration-300"
+              >
+                {/* Visual Image Header */}
+                <div className="relative w-full h-44 overflow-hidden bg-cream">
+                  {imgPath ? (
+                    <Image
+                      src={imgPath}
+                      alt={festival.nameEnglish}
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    />
+                  ) : (
+                    <div className="flex h-full w-full flex-col items-center justify-center bg-gradient-to-br from-saffron/20 via-gold/10 to-cream p-4 text-center">
+                      <span className="font-devanagari text-2xl font-bold text-saffron">
+                        {festival.nameHindi}
+                      </span>
+                      <span className="mt-1 text-xs font-semibold uppercase tracking-wider text-ink/60">
+                        {festival.nameEnglish}
+                      </span>
+                    </div>
+                  )}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                  <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between">
+                    <span className="font-devanagari text-xs text-white/90 font-medium">
+                      {festival.nameHindi}
+                    </span>
+                    <span className="rounded-full bg-saffron/90 px-2 py-0.5 text-[10px] font-bold text-white uppercase tracking-wider">
+                      {monthRangeLabel(festival.typicalMonths)}
+                    </span>
+                  </div>
+                </div>
+
+                {/* Card Content */}
+                <div className="flex flex-col justify-between flex-1 p-5">
+                  <div>
+                    <h2 className="font-display text-xl text-ink font-bold group-hover:text-saffron transition-colors duration-200">
+                      {festival.nameEnglish}
+                    </h2>
+                    <p className="mt-2 text-sm leading-relaxed text-ink/70">
+                      {festival.shortDescription}
+                    </p>
+                  </div>
+                  <div className="mt-5 border-t border-ink/5 pt-4">
+                    <Link
+                      href={`/products/festival-kits`}
+                      className="inline-flex items-center gap-1 text-sm font-semibold text-saffron hover:underline focus-visible:outline-none"
+                    >
+                      Shop Festival Samagri &rarr;
+                    </Link>
+                  </div>
+                </div>
               </div>
-              <div className="mt-6 border-t border-ink/5 pt-4">
-                <Link
-                  href={`/products/festival-kits`}
-                  className="inline-flex items-center gap-1 text-sm font-semibold text-saffron hover:underline focus-visible:outline-none"
-                >
-                  Shop Festival Samagri &rarr;
-                </Link>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Contact Banner */}

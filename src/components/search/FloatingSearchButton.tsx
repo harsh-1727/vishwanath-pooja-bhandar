@@ -35,7 +35,7 @@ export function FloatingSearchButton() {
         type="button"
         onClick={() => setOpen(true)}
         aria-label="Search products"
-        className="fixed bottom-[4.75rem] right-5 z-40 flex h-14 w-14 items-center justify-center rounded-full border border-ink/10 bg-base text-ink shadow-lg transition-transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron/40 focus-visible:ring-offset-2 sm:bottom-5 sm:right-[4.75rem]"
+        className="floating-fab fixed bottom-[4.75rem] right-5 z-40 flex h-14 w-14 items-center justify-center rounded-full border border-ink/10 bg-base text-ink shadow-lg transition-transform hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron/40 focus-visible:ring-offset-2 sm:bottom-5 sm:right-[4.75rem]"
       >
         <Search size={22} aria-hidden="true" />
       </button>

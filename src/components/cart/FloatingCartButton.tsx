@@ -15,7 +15,7 @@ export function FloatingCartButton() {
   return (
     <button
       onClick={openCart}
-      className="fixed bottom-6 left-1/2 -translate-x-1/2 md:left-auto md:right-6 md:translate-x-0 z-40 flex items-center gap-3 rounded-full bg-saffron px-5 py-3 text-white shadow-xl hover:bg-maroon hover:-translate-y-1 transition-all duration-300 ring-4 ring-white"
+      className="floating-fab fixed bottom-6 left-1/2 -translate-x-1/2 md:left-auto md:right-6 md:translate-x-0 z-40 flex items-center gap-3 rounded-full bg-saffron px-5 py-3 text-white shadow-xl hover:bg-maroon hover:-translate-y-1 transition-all duration-300 ring-4 ring-white"
     >
       <div className="relative">
         <ShoppingBag size={20} />

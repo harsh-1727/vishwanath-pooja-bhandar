@@ -64,28 +64,28 @@ export function PanchangStrip() {
             </h2>
           </div>
 
-          <div className="flex flex-wrap gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
             
             {/* Tithi */}
-            <div className="bg-white border border-saffron/20 rounded-xl p-4 flex-1 min-w-[140px] shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
+            <div className="bg-white border border-saffron/20 rounded-xl p-3.5 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
               <p className="text-xs text-ink/50 font-medium mb-1">तिथि</p>
               <p className="font-bold text-ink text-sm sm:text-base">{panchang.tithi || "—"}</p>
             </div>
 
             {/* Nakshatra */}
-            <div className="bg-white border border-saffron/20 rounded-xl p-4 flex-1 min-w-[140px] shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
+            <div className="bg-white border border-saffron/20 rounded-xl p-3.5 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
               <p className="text-xs text-ink/50 font-medium mb-1">नक्षत्र</p>
               <p className="font-bold text-ink text-sm sm:text-base">{panchang.nakshatra || "—"}</p>
             </div>
 
             {/* Yoga */}
-            <div className="bg-white border border-saffron/20 rounded-xl p-4 flex-1 min-w-[140px] shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
+            <div className="bg-white border border-saffron/20 rounded-xl p-3.5 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
               <p className="text-xs text-ink/50 font-medium mb-1">योग</p>
               <p className="font-bold text-ink text-sm sm:text-base">{panchang.yoga || "—"}</p>
             </div>
 
             {/* Sunrise */}
-            <div className="bg-white border border-saffron/20 rounded-xl p-4 flex-1 min-w-[140px] shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
+            <div className="bg-white border border-saffron/20 rounded-xl p-3.5 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
               <p className="text-xs text-ink/50 font-medium mb-1 flex items-center gap-1">
                 <span className="text-saffron">🌅</span> सूर्योदय
               </p>
@@ -93,7 +93,7 @@ export function PanchangStrip() {
             </div>
 
             {/* Sunset */}
-            <div className="bg-white border border-saffron/20 rounded-xl p-4 flex-1 min-w-[140px] shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
+            <div className="bg-white border border-saffron/20 rounded-xl p-3.5 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
               <p className="text-xs text-ink/50 font-medium mb-1 flex items-center gap-1">
                 <span className="text-orange-600">🌆</span> सूर्यास्त
               </p>
@@ -101,7 +101,7 @@ export function PanchangStrip() {
             </div>
 
             {/* Rahu Kaal */}
-            <div className="bg-white border border-saffron/20 rounded-xl p-4 flex-1 min-w-[170px] shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
+            <div className="bg-white border border-saffron/20 rounded-xl p-3.5 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
               <p className="text-xs text-ink/50 font-medium mb-1 flex items-center gap-1">
                 <span className="h-2 w-2 rounded-full bg-red-500 inline-block"></span> राहु काल
               </p>
@@ -109,7 +109,7 @@ export function PanchangStrip() {
             </div>
 
             {/* Moon Sign */}
-            <div className="bg-white border border-saffron/20 rounded-xl p-4 flex-1 min-w-[170px] shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
+            <div className="bg-white border border-saffron/20 rounded-xl p-3.5 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
               <p className="text-xs text-ink/50 font-medium mb-1 flex items-center gap-1">
                 <span className="text-yellow-500">🌙</span> चंद्र राशि
               </p>
@@ -118,7 +118,7 @@ export function PanchangStrip() {
 
             {/* Abhijit Muhurat */}
             {panchang.abhijitMuhurat && (
-              <div className="bg-white border border-saffron/20 rounded-xl p-4 flex-1 min-w-[170px] shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
+              <div className="bg-white border border-saffron/20 rounded-xl p-3.5 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
                 <p className="text-xs text-ink/50 font-medium mb-1 flex items-center gap-1">
                   <span className="h-2 w-2 rounded-full bg-green-500 inline-block"></span> अभिजित मुहूर्त
                 </p>

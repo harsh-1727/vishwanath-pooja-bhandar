@@ -3,15 +3,29 @@
 /**
  * src/components/layout/MobileNav.tsx
  *
- * Reuses the accessible Modal primitive (focus trap, Escape-to-close,
- * focus restoration on close) rather than re-implementing dialog
- * semantics for the mobile menu — one correct, tested a11y
- * implementation powering two different UI surfaces.
+ * Dedicated mobile navigation slide-over overlay drawer.
+ * Overlay highest z-index (z-[100]/z-[101]), dark backdrop with blur,
+ * locks body scroll, hides floating FABs, and includes easy access to all routes.
  */
 
+import { useEffect, useRef } from "react";
 import Link from "next/link";
-import { Modal, Button } from "@/components/ui";
-import { navigationConfig, businessConfig } from "@/config";
+import {
+  X,
+  MessageCircle,
+  Phone,
+  MapPin,
+  Clock,
+  Home,
+  ShoppingBag,
+  Calendar,
+  Compass,
+  Image as GalleryIcon,
+  HelpCircle,
+} from "lucide-react";
+import { Logo } from "@/components/shared";
+import { Button } from "@/components/ui";
+import { navigationConfig, businessConfig, contactConfig } from "@/config";
 import { buildWhatsAppLink, buildTelLink } from "@/lib/utils/contact-links";
 
 interface MobileNavProps {
@@ -19,41 +33,146 @@ interface MobileNavProps {
   onClose: () => void;
 }
 
-export function MobileNav({ open, onClose }: MobileNavProps) {
-  return (
-    <Modal open={open} onClose={onClose} title="Menu">
-      <nav aria-label="Mobile">
-        <ul className="flex flex-col gap-1">
-          {navigationConfig.main.map((item) => (
-            <li key={item.href}>
-              <Link
-                href={item.href}
-                onClick={onClose}
-                className="block rounded-md px-3 py-3 font-body text-base text-ink hover:bg-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron/40"
-              >
-                {item.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
+const NAV_ICONS: Record<string, React.ReactNode> = {
+  "/": <Home size={18} />,
+  "/products": <ShoppingBag size={18} />,
+  "/festivals": <Calendar size={18} />,
+  "/about": <Compass size={18} />,
+  "/gallery": <GalleryIcon size={18} />,
+  "/faq": <HelpCircle size={18} />,
+  "/contact": <MapPin size={18} />,
+};
 
-      <div className="mt-6 flex flex-col gap-3 border-t border-ink/10 pt-6">
-        <Button
-          href={buildWhatsAppLink(
-            `Hi ${businessConfig.name}, I'd like to ask about a puja kit.`
-          )}
-          external
-          target="_blank"
-          variant="whatsapp"
-          fullWidth
-        >
-          Message on WhatsApp
-        </Button>
-        <Button href={buildTelLink()} external variant="outline" fullWidth>
-          Call Now
-        </Button>
+export function MobileNav({ open, onClose }: MobileNavProps) {
+  const drawerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+      document.body.setAttribute("data-drawer-open", "true");
+    } else {
+      document.body.style.overflow = "";
+      document.body.removeAttribute("data-drawer-open");
+    }
+    return () => {
+      document.body.style.overflow = "";
+      document.body.removeAttribute("data-drawer-open");
+    };
+  }, [open]);
+
+  useEffect(() => {
+    if (!open) return;
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        onClose();
+      }
+    }
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [open, onClose]);
+
+  if (!open) return null;
+
+  return (
+    <>
+      {/* Dark Backdrop with blur */}
+      <div
+        className="fixed inset-0 z-[100] bg-ink/60 backdrop-blur-sm transition-opacity"
+        aria-hidden="true"
+        onClick={onClose}
+      />
+
+      {/* Slide-over Mobile Navigation Drawer */}
+      <div
+        ref={drawerRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Mobile Navigation"
+        className="fixed inset-y-0 right-0 z-[101] flex w-[85vw] max-w-xs flex-col bg-base shadow-2xl sm:max-w-sm"
+      >
+        {/* Drawer Header */}
+        <div className="flex items-center justify-between border-b border-ink/10 bg-cream/50 px-5 py-4">
+          <Logo />
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="Close menu"
+            className="rounded-full p-2 text-ink/70 hover:bg-ink/10 hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron/40"
+          >
+            <X size={22} aria-hidden="true" />
+          </button>
+        </div>
+
+        {/* Navigation Items */}
+        <div className="flex-1 overflow-y-auto px-4 py-6">
+          <nav aria-label="Mobile Navigation">
+            <p className="mb-3 px-3 text-xs font-bold uppercase tracking-wider text-saffron">
+              Navigation
+            </p>
+            <ul className="flex flex-col gap-1">
+              {navigationConfig.main.map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    onClick={onClose}
+                    className="flex items-center gap-3 rounded-xl px-3 py-3 font-body text-base font-medium text-ink transition-colors hover:bg-saffron/10 hover:text-saffron focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron/40"
+                  >
+                    <span className="text-saffron">
+                      {NAV_ICONS[item.href] || <Compass size={18} />}
+                    </span>
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          {/* Quick Contact & Info */}
+          <div className="mt-6 border-t border-ink/10 pt-6">
+            <p className="mb-3 px-3 text-xs font-bold uppercase tracking-wider text-saffron">
+              Store &amp; Orders
+            </p>
+            <div className="flex flex-col gap-3">
+              <Button
+                href={buildWhatsAppLink(
+                  `Hi ${businessConfig.name}, I'd like to ask about a puja kit.`
+                )}
+                external
+                target="_blank"
+                variant="whatsapp"
+                fullWidth
+                iconStart={<MessageCircle size={18} aria-hidden="true" />}
+              >
+                WhatsApp Us
+              </Button>
+              <Button
+                href={buildTelLink()}
+                external
+                variant="outline"
+                fullWidth
+                iconStart={<Phone size={18} aria-hidden="true" />}
+              >
+                Call Store Now
+              </Button>
+            </div>
+          </div>
+        </div>
+
+        {/* Drawer Footer */}
+        <div className="border-t border-ink/10 bg-cream/40 px-5 py-4 text-xs text-ink/70">
+          <div className="flex items-start gap-2">
+            <MapPin size={14} className="mt-0.5 shrink-0 text-saffron" />
+            <p>
+              {contactConfig.address.line1}, {contactConfig.address.locality},{" "}
+              {contactConfig.address.city}
+            </p>
+          </div>
+          <div className="mt-2 flex items-center gap-2 text-ink/60">
+            <Clock size={14} className="shrink-0 text-saffron" />
+            <p>Open Today: 9:00 AM – 9:00 PM</p>
+          </div>
+        </div>
       </div>
-    </Modal>
+    </>
   );
 }

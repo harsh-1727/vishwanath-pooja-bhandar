@@ -48,6 +48,7 @@ export function Modal({ open, onClose, title, children, className }: ModalProps)
 
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
+    document.body.setAttribute("data-drawer-open", "true");
 
     function handleKeyDown(e: KeyboardEvent) {
       if (e.key === "Escape") {
@@ -75,6 +76,7 @@ export function Modal({ open, onClose, title, children, className }: ModalProps)
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
       document.body.style.overflow = previousOverflow;
+      document.body.removeAttribute("data-drawer-open");
       previouslyFocusedRef.current?.focus();
     };
   }, [open, onClose]);
@@ -82,9 +84,9 @@ export function Modal({ open, onClose, title, children, className }: ModalProps)
   if (!open) return null;
 
   return createPortal(
-    <div className="fixed inset-0 z-50 flex items-end justify-center sm:items-center">
+    <div className="fixed inset-0 z-[100] flex items-end justify-center sm:items-center">
       <div
-        className="fixed inset-0 bg-ink/40 animate-fade-in"
+        className="fixed inset-0 bg-ink/60 backdrop-blur-sm animate-fade-in"
         aria-hidden="true"
         onClick={onClose}
       />

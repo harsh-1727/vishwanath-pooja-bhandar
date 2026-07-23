@@ -25,6 +25,17 @@
   :focus-visible {
     outline: none;
   }
+
+  body[data-drawer-open="true"] {
+    overflow: hidden !important;
+  }
+
+  body[data-drawer-open="true"] .floating-fab {
+    opacity: 0 !important;
+    pointer-events: none !important;
+    transform: scale(0.8) !important;
+    transition: opacity 0.2s ease, transform 0.2s ease !important;
+  }
 }
 
 /* Respect reduced-motion preferences sitewide — required for the WCAG
