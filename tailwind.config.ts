@@ -41,9 +41,14 @@ const config: Config = {
           "0%": { opacity: "0", transform: "translateY(4px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
+        "slide-in-right": {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0)" },
+        },
       },
       animation: {
         "fade-in": "fade-in 0.2s ease-out",
+        "mobile-menu-in": "slide-in-right 0.28s cubic-bezier(0.25, 0.46, 0.45, 0.94) both",
       },
     },
   },
