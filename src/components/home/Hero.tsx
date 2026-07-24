@@ -25,7 +25,7 @@ const slides: SlideData[] = [
     tagline: "सम्पूर्ण लक्ष्मी-गणेश पूजा सामग्री • पीतल के दीये • माला • धूप • अगरबत्ती",
     image: "/images/festivals/diwali.webp",
     accent: "#E8934A",
-    ctaLink: "/products/festival-kits",
+    ctaLink: "/products/festival-kits?festival=diwali",
   },
   {
     id: "navratri",
@@ -34,7 +34,7 @@ const slides: SlideData[] = [
     tagline: "दुर्गा पूजा किट • अखंड ज्योति • लाल चुनरी • पंचोपचार सामग्री • व्रत सामग्री",
     image: "/images/festivals/navratri.webp",
     accent: "#C9A24B",
-    ctaLink: "/products/festival-kits",
+    ctaLink: "/products/festival-kits?festival=navratri",
   },
   {
     id: "ganesh",
@@ -43,7 +43,7 @@ const slides: SlideData[] = [
     tagline: "मोदक भोग • शुद्ध धूप-दीप • पूजन थाली • केले के पत्ते • पुष्प माला",
     image: "/images/festivals/ganesh.webp",
     accent: "#E8934A",
-    ctaLink: "/products/festival-kits",
+    ctaLink: "/products/festival-kits?festival=ganesh-chaturthi",
   },
   {
     id: "holi",
@@ -52,7 +52,7 @@ const slides: SlideData[] = [
     tagline: "हर्बल गुलाल • प्राकृतिक रंग • पिचकारी • पूजा सामग्री • लड्डू प्रसाद",
     image: "/images/festivals/holi.webp",
     accent: "#C9A24B",
-    ctaLink: "/products/festival-kits",
+    ctaLink: "/products/festival-kits?festival=holi",
   },
   {
     id: "janmashtami",
@@ -61,7 +61,7 @@ const slides: SlideData[] = [
     tagline: "कृष्ण जन्माष्टमी किट • माखन मिश्री • मोर पंख • झूला सजावट • छप्पन भोग",
     image: "/images/festivals/janmashtami.webp",
     accent: "#E8934A",
-    ctaLink: "/products/festival-kits",
+    ctaLink: "/products/festival-kits?festival=janmashtami",
   },
   {
     id: "shivratri",
@@ -70,7 +70,7 @@ const slides: SlideData[] = [
     tagline: "बेलपत्र • गंगाजल • दूध अभिषेक • भस्म • रुद्राक्ष माला • शिव पूजा किट",
     image: "/images/festivals/shivratri.webp",
     accent: "#C9A24B",
-    ctaLink: "/products/festival-kits",
+    ctaLink: "/products/festival-kits?festival=mahashivratri",
   },
 ];
 

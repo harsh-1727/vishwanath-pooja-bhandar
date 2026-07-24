@@ -213,7 +213,7 @@ export default function FestivalsPage() {
                   </div>
                   <div className="mt-5 border-t border-ink/5 pt-4">
                     <Link
-                      href={`/products/festival-kits`}
+                      href={`/products/festival-kits?festival=${festival.slug}`}
                       className="inline-flex items-center gap-1 text-sm font-semibold text-saffron hover:underline focus-visible:outline-none"
                     >
                       Shop Festival Samagri &rarr;

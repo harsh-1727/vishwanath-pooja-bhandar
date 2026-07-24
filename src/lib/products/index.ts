@@ -13,3 +13,4 @@ export { getProductsByCategory, getCategoryCounts } from "./get-by-category";
 export { getRelatedProducts } from "./get-related";
 export { getComplementaryProducts } from "./get-complementary";
 export { getAllCategorySlugs } from "./get-category-slugs";
+export { getProductsByFestival } from "./get-by-festival";

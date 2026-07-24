@@ -66,7 +66,7 @@ export function FestivalStrip() {
             return (
               <Link
                 key={festival.slug}
-                href="/products/festival-kits"
+                href={`/products/festival-kits?festival=${festival.slug}`}
                 className="group shrink-0 w-48 sm:w-auto rounded-card overflow-hidden border border-ink/8 bg-white shadow-sm hover:shadow-md transition-all"
               >
                 {/* Festival image */}

@@ -47,7 +47,9 @@ export interface Product {
   whatsInside: WhatsInside;
   images: ProductImages;
   featured: boolean;
+  inStock: boolean;
   dataStatus: DataStatus;
+  festivalSlug?: string | undefined;
   benefits?: string[] | undefined;
   usage?: string[] | undefined;
   specifications?: Record<string, string> | undefined;
