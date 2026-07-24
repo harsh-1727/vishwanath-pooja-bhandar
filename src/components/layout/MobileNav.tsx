@@ -4,11 +4,22 @@
  * src/components/layout/MobileNav.tsx
  *
  * Dedicated mobile navigation slide-over overlay drawer.
- * Overlay highest z-index (z-[100]/z-[101]), dark backdrop with blur,
- * locks body scroll, hides floating FABs, and includes easy access to all routes.
+ * Rendered via React portal directly onto document.body so it is never
+ * trapped inside the header's stacking context (which creates a new
+ * compositing layer via `backdrop-blur`). This guarantees the backdrop
+ * and drawer always sit above every other element, regardless of any
+ * z-index set on ancestor elements.
+ *
+ * z-index strategy:
+ *  z-[200]  – dark backdrop (blocks all underlying interaction)
+ *  z-[201]  – drawer panel itself (sits above the backdrop)
+ *
+ * Body scroll is locked via both `overflow: hidden` and the
+ * `data-drawer-open` attribute (consumed by globals.css).
  */
 
 import { useEffect, useRef } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import {
   X,
@@ -37,8 +48,8 @@ const NAV_ICONS: Record<string, React.ReactNode> = {
   "/": <Home size={18} />,
   "/products": <ShoppingBag size={18} />,
   "/festivals": <Calendar size={18} />,
-  "/about": <Compass size={18} />,
   "/gallery": <GalleryIcon size={18} />,
+  "/about": <Compass size={18} />,
   "/faq": <HelpCircle size={18} />,
   "/contact": <MapPin size={18} />,
 };
@@ -46,6 +57,7 @@ const NAV_ICONS: Record<string, React.ReactNode> = {
 export function MobileNav({ open, onClose }: MobileNavProps) {
   const drawerRef = useRef<HTMLDivElement>(null);
 
+  // Lock / unlock body scroll
   useEffect(() => {
     if (open) {
       document.body.style.overflow = "hidden";
@@ -60,6 +72,7 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
     };
   }, [open]);
 
+  // Close on Escape key
   useEffect(() => {
     if (!open) return;
     function handleKeyDown(e: KeyboardEvent) {
@@ -73,11 +86,13 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
 
   if (!open) return null;
 
-  return (
+  // Portal to document.body so it is never clipped by the header's
+  // stacking context (backdrop-blur creates a new compositing layer).
+  return createPortal(
     <>
-      {/* Dark Backdrop with blur */}
+      {/* Dark Backdrop — blocks clicks on everything beneath the drawer */}
       <div
-        className="fixed inset-0 z-[100] bg-ink/60 backdrop-blur-sm transition-opacity"
+        className="fixed inset-0 z-[200] bg-black/60 backdrop-blur-sm"
         aria-hidden="true"
         onClick={onClose}
       />
@@ -88,7 +103,7 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
         role="dialog"
         aria-modal="true"
         aria-label="Mobile Navigation"
-        className="fixed inset-y-0 right-0 z-[101] flex w-[85vw] max-w-xs flex-col bg-base shadow-2xl sm:max-w-sm"
+        className="fixed inset-y-0 right-0 z-[201] flex w-[85vw] max-w-xs flex-col bg-base shadow-2xl sm:max-w-sm"
       >
         {/* Drawer Header */}
         <div className="flex items-center justify-between border-b border-ink/10 bg-cream/50 px-5 py-4">
@@ -173,6 +188,7 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
           </div>
         </div>
       </div>
-    </>
+    </>,
+    document.body
   );
 }
