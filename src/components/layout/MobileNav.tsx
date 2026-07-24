@@ -3,40 +3,34 @@
 /**
  * src/components/layout/MobileNav.tsx
  *
- * Full-screen slide-in mobile menu.
+ * Full-screen mobile navigation — behaves like navigating to a new page.
  *
- * Design:
- *  - Covers 100vw × 100dvh with a solid cream/white background.
- *    The page behind is never visible — no backdrop, no blur.
- *  - Slides in from the right edge (translateX 100% → 0) in 280 ms.
- *  - Top bar: close button | logo text | search icon
- *  - Body: plain text nav links with generous tap targets (min 48px)
- *  - Footer: WhatsApp + Call CTAs, then address and store hours
+ * Critical implementation notes:
+ *  - The container uses INLINE STYLES for all positioning and background
+ *    properties so they cannot be silently dropped by Tailwind's purging
+ *    or overridden by theme CSS variables. `bg-base` was the previous bug
+ *    (not a defined Tailwind color → transparent panel). Never use a
+ *    Tailwind class for the background of this container.
+ *  - No backdrop, no blur, no overlay, no opacity layer.
+ *    The previous page is 100% invisible when this menu is open.
+ *  - Portal-mounted onto document.body so it is never trapped inside the
+ *    header's stacking context (which creates a new compositing layer
+ *    via `backdrop-blur`).
  *
- * Portal:
- *  Rendered via ReactDOM.createPortal onto document.body so it is
- *  never trapped inside the header's stacking context, which creates
- *  a new compositing layer via `backdrop-blur`.
+ * Layout (top → bottom):
+ *   1. Fixed top bar: [✕ close] | [store name] | [🔍 search]
+ *   2. Scrollable nav links: Home, Products, Festivals, Gallery, About, FAQ, Contact
+ *   3. Pinned bottom section: WhatsApp, Call, Address, Hours, Social (if configured)
  *
- * z-index:
- *  z-[200]  – the full-screen panel (only element; no separate backdrop)
- *
- * Scroll lock:
- *  Both `overflow: hidden` on body and the `data-drawer-open` attribute
- *  are set (globals.css hides all `.floating-fab` elements via that attr).
+ * CSS variables used (defined in theme.config.ts → injected via layout.tsx):
+ *   --color-saffron : 232 147 74
+ *   --color-ink     : 58 42 30
  */
 
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
-import {
-  X,
-  Search,
-  MessageCircle,
-  Phone,
-  MapPin,
-  Clock,
-} from "lucide-react";
+import { X, Search, MessageCircle, Phone, MapPin, Clock } from "lucide-react";
 import { Modal } from "@/components/ui";
 import { SearchBar } from "@/components/search/SearchBar";
 import { Button } from "@/components/ui";
@@ -82,27 +76,64 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
   return createPortal(
     <>
       {/*
-       * Full-screen panel — covers 100% of the viewport.
-       * `bg-base` (solid white/cream from theme) + `inset-0` ensures
-       * the page behind is completely hidden.
-       * `animate-mobile-menu-in` slides the panel from right → center.
+       * ─── FULL-SCREEN PANEL ───────────────────────────────────────────
+       *
+       * ALL critical layout/background properties use inline styles to
+       * guarantee they are applied regardless of Tailwind purging or CSS
+       * variable resolution. The background MUST be solid — see bug note
+       * above. Do not move any of these to a Tailwind class.
+       *
+       * The panel itself is the only element (no separate backdrop div).
+       * `inset-0` on a fixed element already covers 100vw × 100dvh.
        */}
       <div
         ref={panelRef}
         role="dialog"
         aria-modal="true"
         aria-label="Mobile Navigation"
-        className="fixed inset-0 z-[200] flex flex-col bg-base animate-mobile-menu-in"
-        style={{ WebkitOverflowScrolling: "touch" }}
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100vw",
+          height: "100dvh",
+          backgroundColor: "#ffffff",
+          zIndex: 9999,
+          display: "flex",
+          flexDirection: "column",
+          overflowY: "hidden", // outer container doesn't scroll; inner nav area does
+        }}
       >
-        {/* ── Top Bar ─────────────────────────────────────────────── */}
-        <div className="flex shrink-0 items-center justify-between border-b border-ink/10 px-4 py-3.5">
-          {/* Close button */}
+        {/* ── TOP BAR ───────────────────────────────────────────────── */}
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            flexShrink: 0,
+            borderBottom: "1px solid rgba(58, 42, 30, 0.1)",
+            padding: "12px 16px",
+            backgroundColor: "#ffffff",
+          }}
+        >
+          {/* Close (✕) */}
           <button
             type="button"
             onClick={onClose}
             aria-label="Close menu"
-            className="flex h-10 w-10 items-center justify-center rounded-full text-ink/70 hover:bg-ink/10 hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron/40"
+            style={{
+              width: 44,
+              height: 44,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              borderRadius: "50%",
+              border: "none",
+              background: "none",
+              cursor: "pointer",
+              color: "#3A2A1E",
+              flexShrink: 0,
+            }}
           >
             <X size={24} aria-hidden="true" />
           </button>
@@ -112,34 +143,81 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
             href="/"
             onClick={onClose}
             aria-label={businessConfig.name}
-            className="font-display text-base font-semibold tracking-tight text-ink sm:text-lg"
+            style={{
+              fontFamily: "var(--font-display, serif)",
+              fontSize: "clamp(14px, 3.5vw, 17px)",
+              fontWeight: 600,
+              color: "#3A2A1E",
+              textDecoration: "none",
+              textAlign: "center",
+              lineHeight: 1.25,
+              flex: 1,
+              padding: "0 8px",
+            }}
           >
             {businessConfig.name}
           </Link>
 
-          {/* Search icon */}
+          {/* Search (🔍) */}
           <button
             type="button"
             onClick={() => setSearchOpen(true)}
             aria-label="Search products"
-            className="flex h-10 w-10 items-center justify-center rounded-full text-ink/70 hover:bg-ink/10 hover:text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron/40"
+            style={{
+              width: 44,
+              height: 44,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              borderRadius: "50%",
+              border: "none",
+              background: "none",
+              cursor: "pointer",
+              color: "#3A2A1E",
+              flexShrink: 0,
+            }}
           >
             <Search size={22} aria-hidden="true" />
           </button>
         </div>
 
-        {/* ── Navigation Links ─────────────────────────────────────── */}
+        {/* ── NAVIGATION LINKS ──────────────────────────────────────── */}
         <nav
           aria-label="Mobile Navigation"
-          className="flex-1 overflow-y-auto px-5 py-4"
+          style={{
+            flex: 1,
+            overflowY: "auto",
+            WebkitOverflowScrolling: "touch",
+            padding: "8px 0",
+            backgroundColor: "#ffffff",
+          }}
         >
-          <ul className="flex flex-col divide-y divide-ink/10">
+          <ul
+            style={{
+              listStyle: "none",
+              margin: 0,
+              padding: "0 20px",
+            }}
+          >
             {navigationConfig.main.map((item) => (
-              <li key={item.href}>
+              <li
+                key={item.href}
+                style={{ borderBottom: "1px solid rgba(58, 42, 30, 0.08)" }}
+              >
                 <Link
                   href={item.href}
                   onClick={onClose}
-                  className="flex min-h-[52px] items-center font-body text-[17px] font-medium text-ink transition-colors duration-150 hover:text-saffron focus-visible:outline-none focus-visible:text-saffron"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    minHeight: 56,
+                    fontFamily: "var(--font-body, sans-serif)",
+                    fontSize: 18,
+                    fontWeight: 700,
+                    color: "#111111",
+                    textDecoration: "none",
+                    letterSpacing: "-0.01em",
+                  }}
                 >
                   {item.label}
                 </Link>
@@ -148,10 +226,19 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
           </ul>
         </nav>
 
-        {/* ── Bottom Section ────────────────────────────────────────── */}
-        <div className="shrink-0 border-t border-ink/10 bg-surface px-5 pb-6 pt-5">
+        {/* ── BOTTOM SECTION ────────────────────────────────────────── */}
+        <div
+          style={{
+            flexShrink: 0,
+            borderTop: "1px solid rgba(58, 42, 30, 0.1)",
+            backgroundColor: "#f7f1e6",
+            padding: "20px 20px 28px",
+          }}
+        >
           {/* CTA Buttons */}
-          <div className="flex flex-col gap-2.5">
+          <div
+            style={{ display: "flex", flexDirection: "column", gap: 10 }}
+          >
             <Button
               href={buildWhatsAppLink(
                 `Hi ${businessConfig.name}, I'd like to ask about a puja kit.`
@@ -176,24 +263,39 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
           </div>
 
           {/* Address + Hours */}
-          <div className="mt-4 flex flex-col gap-1.5 text-xs text-ink/60">
-            <div className="flex items-start gap-2">
-              <MapPin size={13} className="mt-0.5 shrink-0 text-saffron" />
+          <div
+            style={{
+              marginTop: 16,
+              display: "flex",
+              flexDirection: "column",
+              gap: 6,
+              fontSize: 12,
+              color: "rgba(58, 42, 30, 0.6)",
+            }}
+          >
+            <div style={{ display: "flex", alignItems: "flex-start", gap: 8 }}>
+              <MapPin
+                size={13}
+                style={{ marginTop: 1, flexShrink: 0, color: "rgb(232 147 74)" }}
+              />
               <span>
                 {contactConfig.address.line1},{" "}
                 {contactConfig.address.locality},{" "}
                 {contactConfig.address.city}
               </span>
             </div>
-            <div className="flex items-center gap-2">
-              <Clock size={13} className="shrink-0 text-saffron" />
+            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+              <Clock
+                size={13}
+                style={{ flexShrink: 0, color: "rgb(232 147 74)" }}
+              />
               <span>Open daily 9:00 AM – 10:30 PM</span>
             </div>
           </div>
 
-          {/* Social links — rendered only when configured */}
+          {/* Social links — only when configured */}
           {navigationConfig.socialLinks.length > 0 && (
-            <div className="mt-4 flex gap-4">
+            <div style={{ marginTop: 16, display: "flex", gap: 16 }}>
               {navigationConfig.socialLinks.map((link) => (
                 <a
                   key={link.platform}
@@ -201,7 +303,12 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={link.platform}
-                  className="text-sm capitalize text-ink/50 hover:text-saffron focus-visible:outline-none"
+                  style={{
+                    fontSize: 13,
+                    textTransform: "capitalize",
+                    color: "rgba(58, 42, 30, 0.5)",
+                    textDecoration: "none",
+                  }}
                 >
                   {link.platform}
                 </a>
@@ -211,7 +318,7 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
         </div>
       </div>
 
-      {/* ── Search Modal (triggered from top bar icon) ─────────────── */}
+      {/* ── SEARCH MODAL ─────────────────────────────────────────────── */}
       <Modal
         open={searchOpen}
         onClose={() => setSearchOpen(false)}
