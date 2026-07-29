@@ -8,6 +8,9 @@ import { MessageCircle, MapPin, Phone, Clock } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact Us",
   description: `Get in touch with ${businessConfig.name}. Visit us at West Patel Nagar, New Delhi, or message us on WhatsApp.`,
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 export default function ContactPage() {

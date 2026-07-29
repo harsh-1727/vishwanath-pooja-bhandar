@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Store Gallery",
   description:
     "See our puja samagri collection, festival decorations, brass & copper puja items, and Indian religious ceremony setups. Vishwanath Pooja Bhandar, West Patel Nagar, New Delhi.",
+  alternates: {
+    canonical: "/gallery",
+  },
 };
 
 interface GalleryItem {

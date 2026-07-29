@@ -8,6 +8,9 @@ import { MessageCircle } from "lucide-react";
 export const metadata: Metadata = {
   title: "Frequently Asked Questions",
   description: `Common questions about ordering puja kits at ${businessConfig.name}, West Patel Nagar, New Delhi.`,
+  alternates: {
+    canonical: "/faq",
+  },
 };
 
 const FAQ_ITEMS: AccordionItemData[] = [

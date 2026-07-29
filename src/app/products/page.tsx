@@ -22,6 +22,9 @@ import {
 export const metadata: Metadata = {
   title: "All Products",
   description: `Browse all puja kits and samagri at ${businessConfig.name}. Festival kits, vrat kits, devta vishesh kits, griha pravesh kits, and more.`,
+  alternates: {
+    canonical: "/products",
+  },
 };
 
 const ICONS: Record<string, LucideIcon> = {

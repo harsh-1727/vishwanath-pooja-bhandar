@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "About Us | Vishwanath Pooja Bhandar, West Patel Nagar Delhi",
   description:
     "40+ years of serving Delhi's families with authentic, pure pooja samagri. Family-run store in West Patel Nagar, New Delhi. Complete puja kits, loose samagri, brass & copper items.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 const WHY_CHOOSE = [
