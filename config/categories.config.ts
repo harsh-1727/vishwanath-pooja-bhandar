@@ -48,14 +48,14 @@ export const categoriesConfig: CategoryConfig[] = [
     nameEnglish: "Griha Pravesh & Vastu Kits",
     nameHindi: "गृह प्रवेश एवं वास्तु सामग्री",
     description:
-      "Samagri for new home, new shop, and new vehicle puja rituals.",
+      "Complete kits for New Home Puja, Bhoomi Pujan, Office Opening, Shop Opening, Vastu Puja, and Customized Kits on request.",
     icon: "Home",
   },
   {
     slug: "samskara-kits",
     nameEnglish: "Samskara Kits",
     nameHindi: "संस्कार पूजन सामग्री",
-    description: "Life-ceremony kits, including Mundan puja samagri.",
+    description: "Complete kits for Naamkaran, Mundan, Janeu (Upanayan), Annaprashan, Marriage Rituals, and other Sanskar Pujas.",
     icon: "Scissors",
   },
   {
@@ -63,7 +63,7 @@ export const categoriesConfig: CategoryConfig[] = [
     nameEnglish: "Graha Shanti & Dosh Nivaran Kits",
     nameHindi: "ग्रह शांति एवं दोष निवारण सामग्री",
     description:
-      "Kits for planetary peace rituals, including Kaal Sarp Dosh and Mahamrityunjay path.",
+      "Navgraha Puja, Graha Shanti, Rahu-Ketu Shanti, Mahamrityunjaya Jaap, Kaal Sarp Dosh Nivaran, and Customized Ritual Kits.",
     icon: "Moon",
   },
   {
@@ -79,6 +79,7 @@ export const categoriesConfig: CategoryConfig[] = [
     nameHindi: "पीतल की वस्तुएं",
     description: "Premium brass diyas, hand bells, incense burners, and aarti plates.",
     icon: "Award",
+    alsoAvailable: ["Brass Kalash", "Brass Diya", "Brass Glass", "Brass Katori", "Akhand Jyot", "Brass Utensils", "Kaasi (Kansa) Thali", "Kaasi Lota", "Kaasi Katori"],
   },
   {
     slug: "copper-items",
@@ -86,6 +87,7 @@ export const categoriesConfig: CategoryConfig[] = [
     nameHindi: "तांबे के पात्र",
     description: "Traditional copper kalash, achman spoons, plates, and gangajal containers.",
     icon: "Sparkles",
+    alsoAvailable: ["Copper Kalash", "Copper Glass", "Copper Lota", "Copper Spoon", "Copper Katori", "Copper Thali", "Copper Parat"],
   },
   {
     slug: "havan-samagri",
@@ -93,6 +95,7 @@ export const categoriesConfig: CategoryConfig[] = [
     nameHindi: "हवन सामग्री",
     description: "Sacred havan wood, herbal powders, loban, and samagri mixtures.",
     icon: "Flame",
+    alsoAvailable: ["Havan Samagri", "Samidha", "Kapoor", "Loban", "Janeu", "Roli", "Moli", "Gangajal", "Honey", "Bhojpatra", "Ashwagandha", "Laung", "Elaichi", "Supari", "Nariyal", "and many more"],
   },
   {
     slug: "temple-accessories",
@@ -100,19 +103,22 @@ export const categoriesConfig: CategoryConfig[] = [
     nameHindi: "मंदिर का सामान",
     description: "Red and yellow chowki cloths, velvet mats, decorative flags, and setups.",
     icon: "Home",
+    alsoAvailable: ["Pooja Aasan", "Pooja Cloth", "Murti", "Wooden Chowki", "Decorative Temple Accessories"],
   },
   {
     slug: "books",
     nameEnglish: "Religious Books",
     nameHindi: "धार्मिक पुस्तकें",
-    description: "Aarti and prayer books, Chalisa collections, and spiritual scriptures.",
+    description:
+      "Bhagavad Gita, Ramayan, Chalisa, Aarti Books, Sundarkand, Vrat Katha, Pooja Books, and many more spiritual scriptures and prayer collections.",
     icon: "BookOpen",
   },
   {
     slug: "decorative-items",
     nameEnglish: "Decorative Items",
     nameHindi: "सजावटी सामान",
-    description: "Festive torans, marigold strings, artificial flowers, and lighting accents.",
+    description:
+      "Toran, Bandarwal, Decorative Flowers, Artificial Flowers, Festival Decoration, Lights, Rangoli Accessories, and more for every occasion.",
     icon: "PartyPopper",
   },
   {
@@ -133,14 +139,14 @@ export const categoriesConfig: CategoryConfig[] = [
     slug: "flowers",
     nameEnglish: "Flowers & Garlands",
     nameHindi: "फूल और माला",
-    description: "Natural and decorative garlands, loose flowers, rose water, and strings.",
+    description: "Fresh Flowers, Decorative Garlands, Rose Petals, Loose Flowers, Mala, Festival Flowers, and seasonal floral arrangements for puja and decoration.",
     icon: "Sparkles",
   },
   {
     slug: "religious-gifts",
     nameEnglish: "Religious Gifts",
     nameHindi: "धार्मिक उपहार",
-    description: "Premium gift hampers, framed deity images, shagun boxes, and shrivatsa.",
+    description: "Gift Hampers, God Frames, Return Gifts, Shagun Boxes, Religious Gift Sets, Decorative Gift Items, and premium puja-themed presents.",
     icon: "PartyPopper",
   },
 ];

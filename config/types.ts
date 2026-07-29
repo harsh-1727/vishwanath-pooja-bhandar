@@ -218,6 +218,8 @@ export interface CategoryConfig {
   description: string;
   /** Lucide icon name — mapped explicitly in CategoryGrid, not dynamic lookup. */
   icon: string;
+  /** Optional list of additional items available in-store but not in the online catalogue. */
+  alsoAvailable?: string[];
 }
 
 // ─────────────────────────────────────────────────────────────────

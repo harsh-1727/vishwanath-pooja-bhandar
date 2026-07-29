@@ -15,6 +15,7 @@ import {
   Award,
   PackageX,
   X,
+  CheckCircle2,
   type LucideIcon,
 } from "lucide-react";
 
@@ -108,9 +109,9 @@ export default async function ProductsPage({
 
       {filteredProducts ? (
         <section className="mt-8 pb-10">
-          <p className="mb-4 text-sm font-medium text-gold">
-            {filteredProducts.length}{" "}
-            {filteredProducts.length === 1 ? "item" : "items"} available for{" "}
+          <p className="mb-4 inline-flex items-center gap-1.5 text-sm font-medium text-gold">
+            <CheckCircle2 size={14} aria-hidden="true" className="text-whatsapp" />
+            All Essential Items Available for{" "}
             {activeFestival ? activeFestival.nameEnglish : festival}
           </p>
 
@@ -142,9 +143,6 @@ export default async function ProductsPage({
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {categoriesConfig.map((category) => {
                 const Icon = ICONS[category.icon] ?? Sparkles;
-                const count = allProducts.filter(
-                  (p) => p.categorySlug === category.slug
-                ).length;
                 return (
                   <Link
                     key={category.slug}
@@ -161,11 +159,10 @@ export default async function ProductsPage({
                       <p className="mt-0.5 font-devanagari text-sm text-ink/50">
                         {category.nameHindi}
                       </p>
-                      {count > 0 && (
-                        <p className="mt-1 text-xs font-medium text-gold">
-                          {count} {count === 1 ? "item" : "items"}
-                        </p>
-                      )}
+                      <p className="mt-1 inline-flex items-center gap-1 text-xs font-medium text-gold">
+                        <CheckCircle2 size={10} aria-hidden="true" className="text-whatsapp" />
+                        All Essential Items Available
+                      </p>
                     </div>
                   </Link>
                 );

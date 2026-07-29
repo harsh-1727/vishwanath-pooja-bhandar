@@ -1,12 +1,8 @@
 /**
  * src/components/home/CategoryGrid.tsx
  *
- * Renders taxonomy from config/categories.config.ts, with item counts
- * now computed live from data/products.json via the Phase 6
- * data-access layer (getCategoryCounts) — exactly the enhancement
- * flagged as pending when this component was first built in Phase 5.
- * Counts can never drift out of sync with the catalog because they're
- * derived from it on every render, not stored anywhere.
+ * Renders taxonomy from config/categories.config.ts with a
+ * "✓ All Essential Items Available" badge on every category card.
  */
 
 import Link from "next/link";
@@ -19,11 +15,11 @@ import {
   Moon,
   Flame,
   Award,
+  CheckCircle2,
   type LucideIcon,
 } from "lucide-react";
 import { Card, CardTitle, CardDescription } from "@/components/ui";
 import { categoriesConfig } from "@/config";
-import { getCategoryCounts } from "@/lib/products";
 
 /**
  * Explicit icon map rather than a dynamic `Icons[iconName]` lookup —
@@ -44,8 +40,6 @@ const ICONS: Record<string, LucideIcon> = {
 };
 
 export function CategoryGrid() {
-  const counts = getCategoryCounts();
-
   return (
     <section className="mx-auto max-w-content px-4 py-14 sm:px-6">
       <div className="mb-8 max-w-2xl">
@@ -61,7 +55,6 @@ export function CategoryGrid() {
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {categoriesConfig.map((category) => {
           const Icon = ICONS[category.icon] ?? Sparkles;
-          const count = counts[category.slug] ?? 0;
           return (
             <Link
               key={category.slug}
@@ -79,11 +72,10 @@ export function CategoryGrid() {
                 <CardDescription className="mt-2">
                   {category.description}
                 </CardDescription>
-                {count > 0 && (
-                  <p className="mt-2 text-xs font-medium text-gold">
-                    {count} {count === 1 ? "item" : "items"} available
-                  </p>
-                )}
+                <p className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-gold">
+                  <CheckCircle2 size={10} aria-hidden="true" className="text-whatsapp" />
+                  All Essential Items Available
+                </p>
               </Card>
             </Link>
           );

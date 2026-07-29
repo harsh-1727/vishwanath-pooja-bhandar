@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProductsByCategory, getAllCategorySlugs } from "@/lib/products";
-import { ProductCard } from "@/components/product";
+import { ProductCard, CategoryFooterCTA } from "@/components/product";
 import { categoriesConfig, festivalConfig } from "@/config";
 import { EmptyState } from "@/components/ui";
-import { PackageX, X } from "lucide-react";
+import { PackageX, X, CheckCircle2 } from "lucide-react";
 
 interface CategoryPageProps {
   params: Promise<{ category: string }>;
@@ -119,8 +119,9 @@ export default async function CategoryPage({
         </p>
       </div>
 
-      <p className="mt-4 text-sm font-medium text-gold">
-        {products.length} {products.length === 1 ? "item" : "items"} available
+      <p className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-gold">
+        <CheckCircle2 size={14} aria-hidden="true" className="text-whatsapp" />
+        All Essential Items Available
       </p>
 
       {products.length > 0 ? (
@@ -142,6 +143,31 @@ export default async function CategoryPage({
           />
         </div>
       )}
+
+      {/* Also Available in Store — informational, no fake products */}
+      {config.alsoAvailable && config.alsoAvailable.length > 0 && (
+        <div className="mt-10 rounded-xl border border-ink/10 bg-cream/30 p-5 sm:p-6">
+          <h3 className="font-display text-lg text-ink">
+            Also Available in Store
+          </h3>
+          <p className="mt-1 text-xs text-ink/50">
+            These items are available at our West Patel Nagar shop. Contact us for details.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {config.alsoAvailable.map((item) => (
+              <span
+                key={item}
+                className="rounded-full border border-saffron/20 bg-white px-3 py-1 text-xs font-medium text-ink/70"
+              >
+                {item}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Category Footer CTA — always at bottom, future products appear above */}
+      <CategoryFooterCTA />
     </div>
   );
 }
