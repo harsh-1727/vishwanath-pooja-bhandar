@@ -6,7 +6,7 @@ import { Button } from "@/components/ui";
 import { MessageCircle, Store, User } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Gallery | Vishwanath Pooja Bhandar — Puja Samagri Photos",
+  title: "Store Gallery",
   description:
     "See our puja samagri collection, festival decorations, brass & copper puja items, and Indian religious ceremony setups. Vishwanath Pooja Bhandar, West Patel Nagar, New Delhi.",
 };
