@@ -3,7 +3,7 @@ import { siteConfig, categoriesConfig } from "@/config";
 import { getAllProducts } from "@/lib/products";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = siteConfig.url;
+  const baseUrl = (siteConfig.url || "https://vishwanathpoojabhandar.com").replace(/\/+$/, "");
   const lastModified = new Date();
 
   // Static routes

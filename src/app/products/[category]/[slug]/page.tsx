@@ -27,6 +27,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!product) return {};
 
   const ogUrl = `${siteConfig.url}/products/${product.categorySlug}/${product.slug}`;
+  const imgRelative = product.images.paths[0] || "/images/products/kit.webp";
+  const ogImageUrl = imgRelative.startsWith("/")
+    ? `${siteConfig.url}${imgRelative}`
+    : `${siteConfig.url}/${imgRelative}`;
 
   return {
     title: `${product.nameEnglish} (${product.nameHindi})`,
@@ -40,20 +44,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: ogUrl,
       images: [
         {
-          url: product.images.paths[0] || "/images/products/kit.webp",
+          url: ogImageUrl,
           width: 800,
           height: 800,
-          alt: product.nameEnglish
-        }
+          alt: product.nameEnglish,
+        },
       ],
-      type: "website"
+      type: "website",
     },
     twitter: {
       card: "summary_large_image",
       title: product.seoTitle,
       description: product.metaDescription,
-      images: [product.images.paths[0] || "/images/products/kit.webp"]
-    }
+      images: [ogImageUrl],
+    },
   };
 }
 
@@ -65,14 +69,17 @@ export default async function ProductPage({ params }: PageProps) {
   const related = getRelatedProducts(product, 3);
   const allProducts = getAllProducts();
 
+  const imgRelative = product.images.paths[0] || "/images/products/kit.webp";
+  const productImageUrl = imgRelative.startsWith("/")
+    ? `${siteConfig.url}${imgRelative}`
+    : `${siteConfig.url}/${imgRelative}`;
+
   // JSON-LD Product Schema
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": product.nameEnglish,
-    "image": [
-      `${siteConfig.url}${product.images.paths[0] || "/images/products/kit.webp"}`
-    ],
+    "image": [productImageUrl],
     "description": product.description,
     "sku": product.id,
     "mpn": product.id,
