@@ -15,7 +15,6 @@ export function PanchangStrip() {
   useEffect(() => {
     try {
       const data = getDailyPanchang();
-      console.log("[PanchangStrip] getDailyPanchang returned:", JSON.stringify(data, null, 2));
       setPanchang(data);
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : String(err);
