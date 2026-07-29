@@ -152,9 +152,9 @@ export function Hero() {
                     {slide.nameHindi}
                   </p>
 
-                  <h2 className="text-white font-display text-3xl sm:text-5xl md:text-6xl font-bold leading-tight drop-shadow-lg">
+                  <h1 className="text-white font-display text-3xl sm:text-5xl md:text-6xl font-bold leading-tight drop-shadow-lg">
                     {slide.nameEnglish}
-                  </h2>
+                  </h1>
 
                   <p className="mt-4 font-devanagari text-sm sm:text-base text-white/80 leading-relaxed drop-shadow max-w-xl">
                     {slide.tagline}

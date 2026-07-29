@@ -32,11 +32,26 @@ export async function generateMetadata({
     ? `${activeFestival.nameEnglish} Puja Samagri & Kits`
     : config.nameEnglish;
 
+  const description = activeFestival
+    ? `Buy authentic ${activeFestival.nameEnglish} (${activeFestival.nameHindi}) puja samagri and kits from Vishwanath Pooja Bhandar.`
+    : config.description;
+
   return {
     title,
-    description: activeFestival
-      ? `Buy authentic ${activeFestival.nameEnglish} (${activeFestival.nameHindi}) puja samagri and kits from Vishwanath Pooja Bhandar.`
-      : config.description,
+    description,
+    alternates: {
+      canonical: `/products/${category}`,
+    },
+    openGraph: {
+      title,
+      description,
+      url: `/products/${category}`,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }
 

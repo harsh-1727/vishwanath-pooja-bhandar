@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { MessageCircle, Share2, ZoomIn, Info, FileText, Sparkles, ShoppingBag, Plus, Minus } from "lucide-react";
-import { Button, Badge, useToast } from "@/components/ui";
+import { MessageCircle, Share2, ZoomIn, Info, FileText, Sparkles, ShoppingBag, Plus, Minus, HelpCircle } from "lucide-react";
+import { Badge, useToast } from "@/components/ui";
 import { formatPriceInr } from "@/lib/utils/format-price";
 import { buildWhatsAppLink } from "@/lib/utils/contact-links";
 import { businessConfig } from "@/config";
@@ -164,96 +164,116 @@ export default function ProductClientPage({ product, related, allProducts }: Pro
           </div>
 
           {/* Action buttons */}
-          <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-6 flex flex-col gap-3">
             {qtyInCart === 0 ? (
               <button
                 type="button"
                 onClick={() => { addItem(product, 1); toast("Added to cart ✓"); }}
                 className="flex items-center justify-center gap-2 w-full rounded-xl bg-saffron px-6 py-3.5 text-sm font-bold text-white shadow-sm hover:bg-saffron/90 transition-colors"
               >
-                <ShoppingBag size={18} /> Add to Cart
+                <ShoppingBag size={18} aria-hidden="true" /> Add to Cart
               </button>
             ) : (
               <div className="flex items-center justify-between w-full rounded-xl border-2 border-saffron bg-saffron/5 px-4 py-2.5">
-                <button type="button" onClick={() => updateQuantity(product.id, -1)} className="flex h-9 w-9 items-center justify-center rounded-lg bg-saffron/10 text-saffron hover:bg-saffron/20 transition-colors">
-                  <Minus size={16} />
+                <button
+                  type="button"
+                  onClick={() => updateQuantity(product.id, -1)}
+                  aria-label="Decrease quantity"
+                  className="flex h-9 w-9 items-center justify-center rounded-lg bg-saffron/10 text-saffron hover:bg-saffron/20 transition-colors"
+                >
+                  <Minus size={16} aria-hidden="true" />
                 </button>
-                <span className="font-bold text-ink text-lg">{qtyInCart}</span>
-                <button type="button" onClick={() => updateQuantity(product.id, 1)} className="flex h-9 w-9 items-center justify-center rounded-lg bg-saffron/10 text-saffron hover:bg-saffron/20 transition-colors">
-                  <Plus size={16} />
+                <span className="font-bold text-ink">{qtyInCart} in cart</span>
+                <button
+                  type="button"
+                  onClick={() => updateQuantity(product.id, 1)}
+                  aria-label="Increase quantity"
+                  className="flex h-9 w-9 items-center justify-center rounded-lg bg-saffron/10 text-saffron hover:bg-saffron/20 transition-colors"
+                >
+                  <Plus size={16} aria-hidden="true" />
                 </button>
               </div>
             )}
-            <Button
-              href={whatsappHref}
-              external
-              target="_blank"
-              variant="whatsapp"
-              size="lg"
-              fullWidth
-              iconStart={<MessageCircle size={20} aria-hidden="true" />}
-              className="shadow-sm"
-            >
-              Order on WhatsApp
-            </Button>
-            <button
-              type="button"
-              onClick={handleShare}
-              className="flex items-center justify-center gap-2 rounded-full border border-ink/10 bg-base px-6 py-3 text-sm font-semibold text-ink shadow-sm hover:bg-cream/40 transition-colors"
-            >
-              <Share2 size={18} />
-              Share
-            </button>
           </div>
 
-          <div className="text-center mt-3">
+          <div className="mt-4 flex flex-col gap-2.5">
             <a
-              href={askWhatsappHref}
+              href={whatsappHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs text-whatsapp hover:underline font-semibold inline-flex items-center gap-1.5"
+              className="flex items-center justify-center gap-2 w-full rounded-xl bg-whatsapp px-6 py-3.5 text-sm font-bold text-white shadow-sm hover:bg-whatsapp/90 transition-colors"
             >
-              <MessageCircle size={14} />
-              इस उत्पाद के बारे में पूछें (Ask on WhatsApp)
+              <MessageCircle size={18} aria-hidden="true" /> Order on WhatsApp
             </a>
+
+            <div className="flex items-center gap-2">
+              <a
+                href={askWhatsappHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl border border-ink/10 bg-cream/30 py-2.5 text-xs font-semibold text-ink/70 hover:bg-cream/60 transition-colors text-center"
+              >
+                <HelpCircle size={14} aria-hidden="true" /> Ask a Question
+              </a>
+              <button
+                type="button"
+                onClick={handleShare}
+                aria-label="Share product link"
+                className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl border border-ink/10 bg-cream/30 py-2.5 text-xs font-semibold text-ink/70 hover:bg-cream/60 transition-colors text-center"
+              >
+                <Share2 size={14} aria-hidden="true" /> Share Product
+              </button>
+            </div>
           </div>
 
           {/* Tabbed Specifications / Info Section */}
           <div className="mt-10 rounded-card border border-ink/10 bg-base overflow-hidden">
-            <div className="flex border-b border-ink/10 bg-cream/35">
+            <div className="flex border-b border-ink/10 bg-cream/35" role="tablist" aria-label="Product Information Tabs">
               <button
                 type="button"
+                role="tab"
+                aria-selected={activeTab === "info"}
+                aria-controls="tab-panel-info"
+                id="tab-info"
                 onClick={() => setActiveTab("info")}
                 className={`flex-1 py-3 text-center text-sm font-semibold border-b-2 transition-all ${
                   activeTab === "info" ? "border-saffron text-saffron bg-base" : "border-transparent text-ink/60 hover:text-ink"
                 }`}
               >
                 <span className="inline-flex items-center gap-1">
-                  <Info size={16} />
+                  <Info size={16} aria-hidden="true" />
                   Details
                 </span>
               </button>
               <button
                 type="button"
+                role="tab"
+                aria-selected={activeTab === "benefits"}
+                aria-controls="tab-panel-benefits"
+                id="tab-benefits"
                 onClick={() => setActiveTab("benefits")}
                 className={`flex-1 py-3 text-center text-sm font-semibold border-b-2 transition-all ${
                   activeTab === "benefits" ? "border-saffron text-saffron bg-base" : "border-transparent text-ink/60 hover:text-ink"
                 }`}
               >
                 <span className="inline-flex items-center gap-1">
-                  <Sparkles size={16} />
+                  <Sparkles size={16} aria-hidden="true" />
                   Benefits
                 </span>
               </button>
               <button
                 type="button"
+                role="tab"
+                aria-selected={activeTab === "usage"}
+                aria-controls="tab-panel-usage"
+                id="tab-usage"
                 onClick={() => setActiveTab("usage")}
                 className={`flex-1 py-3 text-center text-sm font-semibold border-b-2 transition-all ${
                   activeTab === "usage" ? "border-saffron text-saffron bg-base" : "border-transparent text-ink/60 hover:text-ink"
                 }`}
               >
                 <span className="inline-flex items-center gap-1">
-                  <FileText size={16} />
+                  <FileText size={16} aria-hidden="true" />
                   Usage
                 </span>
               </button>

@@ -12,7 +12,7 @@ import {
 } from "@/components/layout";
 import { FloatingSearchButton } from "@/components/search/FloatingSearchButton";
 import { CartDrawer, FloatingCartButton } from "@/components/cart";
-import { seoConfig, siteConfig } from "@/config";
+import { seoConfig, siteConfig, businessConfig, contactConfig } from "@/config";
 import { buildThemeCssVariables } from "@/lib/utils/theme-vars";
 
 /**
@@ -47,6 +47,24 @@ const devanagariFont = Noto_Sans_Devanagari({
   display: "swap",
 });
 
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": businessConfig.name,
+  "description": businessConfig.description,
+  "url": siteConfig.url,
+  "telephone": contactConfig.phone,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": contactConfig.address.line1,
+    "addressLocality": contactConfig.address.locality,
+    "addressRegion": contactConfig.address.region,
+    "postalCode": contactConfig.address.postalCode || "",
+    "addressCountry": contactConfig.address.country,
+  },
+  "priceRange": "₹",
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
@@ -54,6 +72,31 @@ export const metadata: Metadata = {
     default: seoConfig.defaultTitle,
   },
   description: seoConfig.defaultDescription,
+  alternates: {
+    canonical: "./",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    url: siteConfig.url,
+    siteName: businessConfig.name,
+    title: seoConfig.defaultTitle,
+    description: seoConfig.defaultDescription,
+    images: [
+      {
+        url: seoConfig.defaultOgImage,
+        width: 1200,
+        height: 630,
+        alt: businessConfig.name,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: seoConfig.defaultTitle,
+    description: seoConfig.defaultDescription,
+    images: [seoConfig.defaultOgImage],
+  },
   manifest: "/manifest.json",
   icons: {
     icon: "/favicon.ico",
@@ -67,11 +110,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       className={`${displayFont.variable} ${bodyFont.variable} ${devanagariFont.variable}`}
     >
       <head>
-        {/* Color tokens generated from theme.config.ts at request time —
-            see src/lib/utils/theme-vars.ts for why this isn't a static
-            CSS file. Content is fully server-controlled config, never
-            user input, so this is safe. */}
         <style dangerouslySetInnerHTML={{ __html: buildThemeCssVariables() }} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(localBusinessSchema),
+          }}
+        />
       </head>
       <body className="flex min-h-screen flex-col">
         <Providers>
