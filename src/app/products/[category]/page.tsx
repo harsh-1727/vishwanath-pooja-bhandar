@@ -4,8 +4,8 @@ import Link from "next/link";
 import { getProductsByCategory, getAllCategorySlugs } from "@/lib/products";
 import { ProductCard, CategoryFooterCTA } from "@/components/product";
 import { categoriesConfig, festivalConfig } from "@/config";
-import { EmptyState } from "@/components/ui";
-import { PackageX, X, CheckCircle2 } from "lucide-react";
+import { X, CheckCircle2, MessageCircle } from "lucide-react";
+import { buildWhatsAppLink } from "@/lib/utils/contact-links";
 
 interface CategoryPageProps {
   params: Promise<{ category: string }>;
@@ -125,28 +125,48 @@ export default async function CategoryPage({
       </p>
 
       {products.length > 0 ? (
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
       ) : (
-        <div className="mt-8">
-          <EmptyState
-            icon={<PackageX size={32} aria-hidden="true" />}
-            title="Products for this festival will be available soon."
-            description={
-              activeFestival
-                ? `We are hand-assembling special kits for ${activeFestival.nameEnglish} (${activeFestival.nameHindi}) at our store. Please contact us on WhatsApp for custom orders.`
-                : "Check back soon or ask us on WhatsApp — we may have what you need."
-            }
-          />
+        <div className="mt-4 flex flex-col items-center justify-center rounded-2xl border border-dashed border-saffron/30 bg-cream/20 px-4 py-6 text-center">
+          <div className="text-3xl select-none" role="img" aria-label="package">
+            📦
+          </div>
+
+          <p className="mt-2 font-devanagari text-base font-semibold text-ink sm:text-lg">
+            अभी इस श्रेणी के उत्पाद वेबसाइट पर उपलब्ध नहीं हैं।
+          </p>
+          <p className="mt-0.5 text-xs text-ink/60 sm:text-sm">
+            Products in this category will be available on the website soon.
+          </p>
+
+          <p className="mt-3 font-devanagari text-sm font-medium text-ink/80">
+            हमारे स्टोर में इस श्रेणी के कई अन्य उत्पाद उपलब्ध हैं।
+          </p>
+          <p className="mt-0.5 text-xs text-ink/60">
+            Many more items are available in our physical store.
+          </p>
+
+          <a
+            href={buildWhatsAppLink(
+              `Hi! I am looking for ${activeFestival ? activeFestival.nameEnglish : config.nameEnglish} items. Do you have them in store?`
+            )}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-2 rounded-lg bg-whatsapp px-5 py-2.5 text-sm font-bold text-white shadow-sm transition-colors hover:bg-whatsapp/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whatsapp/40"
+          >
+            <MessageCircle size={18} aria-hidden="true" />
+            WhatsApp Us
+          </a>
         </div>
       )}
 
-      {/* Also Available in Store — informational, no fake products */}
+      {/* Also Available in Store — minimal spacing immediately below compact empty state or grid */}
       {config.alsoAvailable && config.alsoAvailable.length > 0 && (
-        <div className="mt-10 rounded-xl border border-ink/10 bg-cream/30 p-5 sm:p-6">
+        <div className="mt-5 rounded-xl border border-ink/10 bg-cream/30 p-5 sm:p-6">
           <h3 className="font-display text-lg text-ink">
             Also Available in Store
           </h3>
