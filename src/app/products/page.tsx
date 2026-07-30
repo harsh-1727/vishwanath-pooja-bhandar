@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { categoriesConfig, businessConfig, festivalConfig } from "@/config";
-import { getAllProducts } from "@/lib/products";
-import { ProductCard, ProductsSearchWrapper } from "@/components/product";
+import { getAllProducts, getCategoryCounts } from "@/lib/products";
+import { ProductCard, ProductsSearchWrapper, ProductsPageCTA } from "@/components/product";
 import { EmptyState } from "@/components/ui";
 import {
   PartyPopper,
@@ -57,6 +57,12 @@ export default async function ProductsPage({
     : null;
 
   const featured = allProducts.filter((p) => p.featured).slice(0, 6);
+
+  // Only show categories that have at least one product
+  const counts = getCategoryCounts();
+  const activeCategories = categoriesConfig.filter(
+    (c) => (counts[c.slug] ?? 0) > 0
+  );
 
   return (
     <div className="mx-auto max-w-content px-4 py-10 sm:px-6">
@@ -144,7 +150,7 @@ export default async function ProductsPage({
           <section className="mt-12">
             <h2 className="font-display text-2xl text-ink">Shop by Category</h2>
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {categoriesConfig.map((category) => {
+              {activeCategories.map((category) => {
                 const Icon = ICONS[category.icon] ?? Sparkles;
                 return (
                   <Link
@@ -186,6 +192,9 @@ export default async function ProductsPage({
               </div>
             </section>
           )}
+
+          {/* Premium CTA — drives WhatsApp enquiries for unlisted items */}
+          <ProductsPageCTA />
         </ProductsSearchWrapper>
       )}
     </div>

@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { siteConfig, categoriesConfig } from "@/config";
-import { getAllProducts } from "@/lib/products";
+import { getAllProducts, getCategoryCounts } from "@/lib/products";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = (siteConfig.url || "https://vishwanathpoojabhandar.com").replace(/\/+$/, "");
@@ -14,13 +14,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === "" ? 1.0 : 0.8,
   }));
 
-  // Category routes
-  const categoryRoutes = categoriesConfig.map((cat) => ({
-    url: `${baseUrl}/products/${cat.slug}`,
-    lastModified,
-    changeFrequency: "weekly" as const,
-    priority: 0.7,
-  }));
+  // Category routes — only include categories that have products
+  const counts = getCategoryCounts();
+  const categoryRoutes = categoriesConfig
+    .filter((cat) => (counts[cat.slug] ?? 0) > 0)
+    .map((cat) => ({
+      url: `${baseUrl}/products/${cat.slug}`,
+      lastModified,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    }));
 
   // Product routes
   const products = getAllProducts();

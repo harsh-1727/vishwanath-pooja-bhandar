@@ -1,8 +1,8 @@
 /**
  * src/components/home/CategoryGrid.tsx
  *
- * Renders taxonomy from config/categories.config.ts with a
- * "✓ All Essential Items Available" badge on every category card.
+ * Renders only categories that have at least one product in the catalog.
+ * Categories with zero products are excluded from the homepage entirely.
  */
 
 import Link from "next/link";
@@ -20,6 +20,7 @@ import {
 } from "lucide-react";
 import { Card, CardTitle, CardDescription } from "@/components/ui";
 import { categoriesConfig } from "@/config";
+import { getCategoryCounts } from "@/lib/products";
 
 /**
  * Explicit icon map rather than a dynamic `Icons[iconName]` lookup —
@@ -40,6 +41,11 @@ const ICONS: Record<string, LucideIcon> = {
 };
 
 export function CategoryGrid() {
+  const counts = getCategoryCounts();
+  const activeCategories = categoriesConfig.filter(
+    (c) => (counts[c.slug] ?? 0) > 0
+  );
+
   return (
     <section className="mx-auto max-w-content px-4 py-14 sm:px-6">
       <div className="mb-8 max-w-2xl">
@@ -53,7 +59,7 @@ export function CategoryGrid() {
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {categoriesConfig.map((category) => {
+        {activeCategories.map((category) => {
           const Icon = ICONS[category.icon] ?? Sparkles;
           return (
             <Link
@@ -84,3 +90,4 @@ export function CategoryGrid() {
     </section>
   );
 }
+
