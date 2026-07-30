@@ -1,5 +1,8 @@
+"use client";
+
 import { MessageCircle, Store, Users, CheckCircle2 } from "lucide-react";
 import { buildWhatsAppLink } from "@/lib/utils/contact-links";
+import { trackWhatsAppClick } from "@/lib/analytics";
 
 /**
  * Premium, full-width CTA section for the bottom of the Products page.
@@ -61,6 +64,7 @@ export function ProductsPageCTA() {
               )}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackWhatsAppClick({ button_location: "products_bottom_cta" })}
               className="inline-flex items-center gap-2.5 rounded-xl bg-whatsapp px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-whatsapp/25 transition-all hover:scale-[1.02] hover:bg-whatsapp/90 hover:shadow-xl hover:shadow-whatsapp/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whatsapp/50 sm:text-base"
             >
               <MessageCircle size={20} aria-hidden="true" />

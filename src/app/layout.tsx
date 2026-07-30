@@ -12,6 +12,7 @@ import {
 } from "@/components/layout";
 import { FloatingSearchButton } from "@/components/search/FloatingSearchButton";
 import { CartDrawer, FloatingCartButton } from "@/components/cart";
+import { Analytics } from "@/components/shared";
 import { seoConfig, siteConfig, businessConfig, contactConfig } from "@/config";
 import { buildThemeCssVariables } from "@/lib/utils/theme-vars";
 
@@ -129,6 +130,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <CartDrawer />
           <FloatingWhatsApp />
           <FloatingCall />
+          <Analytics />
         </Providers>
       </body>
     </html>

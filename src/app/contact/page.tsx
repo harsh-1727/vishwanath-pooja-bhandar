@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { businessConfig, contactConfig } from "@/config";
-import { buildWhatsAppLink, buildTelLink } from "@/lib/utils/contact-links";
+import { buildTelLink } from "@/lib/utils/contact-links";
 import { formatWeeklyHours } from "@/lib/utils/format-hours";
-import { Button } from "@/components/ui";
-import { MessageCircle, MapPin, Phone, Clock } from "lucide-react";
+import { MapPin, Phone, Clock } from "lucide-react";
+import { ContactActions } from "@/components/contact/ContactActions";
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -93,24 +93,7 @@ export default function ContactPage() {
             </div>
           </dl>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Button
-              href={buildWhatsAppLink(
-                `Hi ${businessConfig.name}, I'd like to get in touch.`
-              )}
-              external
-              target="_blank"
-              variant="whatsapp"
-              iconStart={<MessageCircle size={18} aria-hidden="true" />}
-            >
-              WhatsApp Us
-            </Button>
-            <Button href={buildTelLink()} external variant="outline"
-              iconStart={<Phone size={16} aria-hidden="true" />}
-            >
-              Call Now
-            </Button>
-          </div>
+          <ContactActions />
         </div>
 
         {/* Map placeholder */}

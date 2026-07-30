@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProductsByCategory, getAllCategorySlugs } from "@/lib/products";
-import { ProductCard, CategoryFooterCTA } from "@/components/product";
+import { ProductCard, CategoryFooterCTA, CategoryAnalyticsTracker } from "@/components/product";
 import { categoriesConfig, festivalConfig } from "@/config";
 import { X, CheckCircle2, MessageCircle } from "lucide-react";
 import { buildWhatsAppLink } from "@/lib/utils/contact-links";
@@ -76,6 +76,7 @@ export default async function CategoryPage({
 
   return (
     <div className="mx-auto max-w-content px-4 py-10 sm:px-6">
+      <CategoryAnalyticsTracker categoryName={config.nameEnglish} />
       <div className="flex flex-col gap-1">
         <h1 className="font-display text-3xl text-ink sm:text-4xl">
           {activeFestival

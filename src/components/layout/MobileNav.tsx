@@ -36,6 +36,7 @@ import { SearchBar } from "@/components/search/SearchBar";
 import { Button } from "@/components/ui";
 import { navigationConfig, businessConfig, contactConfig } from "@/config";
 import { buildWhatsAppLink, buildTelLink } from "@/lib/utils/contact-links";
+import { trackWhatsAppClick, trackPhoneCall } from "@/lib/analytics";
 
 interface MobileNavProps {
   open: boolean;
@@ -247,6 +248,7 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
               target="_blank"
               variant="whatsapp"
               fullWidth
+              onClick={() => trackWhatsAppClick({ button_location: "mobile_nav" })}
               iconStart={<MessageCircle size={18} aria-hidden="true" />}
             >
               WhatsApp Us
@@ -256,6 +258,7 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
               external
               variant="outline"
               fullWidth
+              onClick={() => trackPhoneCall({ button_location: "mobile_nav" })}
               iconStart={<Phone size={18} aria-hidden="true" />}
             >
               Call Store Now

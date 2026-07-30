@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import { Search, MessageCircle } from "lucide-react";
 import { buildWhatsAppLink } from "@/lib/utils/contact-links";
+import { trackWhatsAppClick } from "@/lib/analytics";
 
 /**
  * A professional CTA card shown at the bottom of every category page.
@@ -43,6 +46,7 @@ export function CategoryFooterCTA() {
           )}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => trackWhatsAppClick({ button_location: "products_bottom_cta" })}
           className="inline-flex items-center gap-2 rounded-lg bg-whatsapp px-5 py-2.5 text-sm font-bold text-white shadow-sm transition-colors hover:bg-whatsapp/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whatsapp/40"
         >
           <MessageCircle size={16} aria-hidden="true" />

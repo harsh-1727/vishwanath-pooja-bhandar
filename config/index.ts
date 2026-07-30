@@ -19,4 +19,5 @@ export { festivalConfig } from "./festival.config";
 export { featureConfig } from "./feature.config";
 export { categoriesConfig } from "./categories.config";
 export { festivalDatesConfig } from "./festivalDates.config";
+export { analyticsConfig } from "./analytics.config";
 export * from "./constants";

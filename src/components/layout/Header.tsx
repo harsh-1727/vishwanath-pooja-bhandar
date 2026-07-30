@@ -18,6 +18,7 @@ import { Button } from "@/components/ui";
 import { MobileNav } from "./MobileNav";
 import { navigationConfig, businessConfig } from "@/config";
 import { buildWhatsAppLink, buildTelLink } from "@/lib/utils/contact-links";
+import { trackWhatsAppClick, trackPhoneCall } from "@/lib/analytics";
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -51,6 +52,7 @@ export function Header() {
             target="_blank"
             variant="whatsapp"
             size="sm"
+            onClick={() => trackWhatsAppClick({ button_location: "header" })}
             iconStart={<MessageCircle size={16} aria-hidden="true" />}
           >
             WhatsApp
@@ -60,6 +62,7 @@ export function Header() {
             external
             variant="outline"
             size="sm"
+            onClick={() => trackPhoneCall({ button_location: "header" })}
             iconStart={<Phone size={16} aria-hidden="true" />}
           >
             Call

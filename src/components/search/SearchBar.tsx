@@ -19,6 +19,7 @@ import { SearchDropdown } from "./SearchDropdown";
 import { useRecentSearches } from "@/hooks";
 import { SEARCH_DEBOUNCE_MS, SEARCH_MIN_QUERY_LENGTH } from "@/config";
 import { cn } from "@/lib/utils/cn";
+import { trackSearch } from "@/lib/analytics";
 import type { SearchApiResponse, SearchResultItem } from "@/types/search";
 
 interface SearchBarProps {
@@ -79,6 +80,7 @@ export function SearchBar({ autoFocus = false, onNavigate, className }: SearchBa
   function goToSearchPage(finalQuery: string) {
     const trimmed = finalQuery.trim();
     if (!trimmed) return;
+    trackSearch({ search_term: trimmed });
     addSearch(trimmed);
     setOpen(false);
     onNavigate?.();

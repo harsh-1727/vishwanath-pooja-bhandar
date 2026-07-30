@@ -8,6 +8,7 @@ import { Badge, useToast } from "@/components/ui";
 import { formatPriceInr } from "@/lib/utils/format-price";
 import { buildWhatsAppLink } from "@/lib/utils/contact-links";
 import { businessConfig } from "@/config";
+import { trackProductView, trackWhatsAppClick } from "@/lib/analytics";
 import type { Product } from "@/types/product";
 import { useCart } from "@/lib/store/CartContext";
 
@@ -57,6 +58,15 @@ export default function ProductClientPage({ product, related, allProducts }: Pro
       // Degrade silently if localStorage unavailable
     }
   }, [product.id, allProducts]);
+
+  // Track Product View event
+  useEffect(() => {
+    trackProductView({
+      product_name: product.nameEnglish,
+      product_slug: product.slug,
+      category: product.categorySlug,
+    });
+  }, [product.nameEnglish, product.slug, product.categorySlug]);
 
   const handleShare = () => {
     const shareUrl = window.location.href;
@@ -201,6 +211,14 @@ export default function ProductClientPage({ product, related, allProducts }: Pro
               href={whatsappHref}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() =>
+                trackWhatsAppClick({
+                  button_location: "product_page",
+                  product_name: product.nameEnglish,
+                  product_slug: product.slug,
+                  category_name: product.categorySlug,
+                })
+              }
               className="flex items-center justify-center gap-2 w-full rounded-xl bg-whatsapp px-6 py-3.5 text-sm font-bold text-white shadow-sm hover:bg-whatsapp/90 transition-colors"
             >
               <MessageCircle size={18} aria-hidden="true" /> Order on WhatsApp
@@ -211,6 +229,14 @@ export default function ProductClientPage({ product, related, allProducts }: Pro
                 href={askWhatsappHref}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() =>
+                  trackWhatsAppClick({
+                    button_location: "product_page",
+                    product_name: product.nameEnglish,
+                    product_slug: product.slug,
+                    category_name: product.categorySlug,
+                  })
+                }
                 className="flex-1 inline-flex items-center justify-center gap-1.5 rounded-xl border border-ink/10 bg-cream/30 py-2.5 text-xs font-semibold text-ink/70 hover:bg-cream/60 transition-colors text-center"
               >
                 <HelpCircle size={14} aria-hidden="true" /> Ask a Question

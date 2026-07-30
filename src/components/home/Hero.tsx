@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ChevronLeft, ChevronRight, MessageCircle, ShoppingBag } from "lucide-react";
 import { businessConfig } from "@/config";
 import { buildWhatsAppLink } from "@/lib/utils/contact-links";
+import { trackWhatsAppClick } from "@/lib/analytics";
 
 interface SlideData {
   id: string;
@@ -173,6 +174,7 @@ export function Hero() {
                       href={whatsappHref}
                       target="_blank"
                       rel="noopener noreferrer"
+                      onClick={() => trackWhatsAppClick({ button_location: "homepage_cta" })}
                       className="inline-flex items-center gap-2 rounded-sm bg-[#25D366] px-6 py-3 text-sm font-bold text-white uppercase tracking-wide shadow-lg transition-all hover:scale-105 active:scale-95"
                     >
                       <MessageCircle size={16} aria-hidden="true" />

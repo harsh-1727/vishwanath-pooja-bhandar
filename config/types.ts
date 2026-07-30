@@ -152,6 +152,12 @@ export interface SeoConfig {
   twitterHandle: string | null;
 }
 
+export interface AnalyticsConfig {
+  gaMeasurementId: string;
+  clarityId: string;
+  debugMode: boolean;
+}
+
 // ─────────────────────────────────────────────────────────────────
 // Navigation
 // ─────────────────────────────────────────────────────────────────

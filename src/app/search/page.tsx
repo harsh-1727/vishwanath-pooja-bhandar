@@ -5,6 +5,7 @@ import { ProductCard } from "@/components/product";
 import { EmptyState, Button } from "@/components/ui";
 import { businessConfig } from "@/config";
 import { buildWhatsAppLink } from "@/lib/utils/contact-links";
+import { SearchAnalyticsTracker } from "@/components/search/SearchAnalyticsTracker";
 
 interface SearchPageProps {
   // Next.js 15: searchParams is a Promise and must be awaited — this
@@ -33,6 +34,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
 
   return (
     <div className="mx-auto max-w-content px-4 py-10 sm:px-6">
+      <SearchAnalyticsTracker query={q} />
       <h1 className="font-display text-2xl text-ink sm:text-3xl">
         {q ? `Results for "${q}"` : "Search"}
       </h1>
