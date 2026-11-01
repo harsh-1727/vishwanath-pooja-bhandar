@@ -10,6 +10,7 @@ import {
   TrustStrip,
   ContactBlock,
   DiwaliKitShowcase,
+  DiwaliOfferPopup,
 } from "@/components/home";
 import { Card, Button } from "@/components/ui";
 import { businessConfig } from "@/config";
@@ -20,16 +21,14 @@ export const metadata: Metadata = {
 };
 
 /**
- * Section order follows PROJECT_MASTER.md §5 Page Structure exactly:
- * Hero → Category grid → Festival Calendar strip → Find My Puja Kit
- * entry point → About teaser → Trust section → Map + contact block.
+ * Homepage section order (updated for Diwali promotion):
  *
- * The "Find My Puja Kit" entry is inline here rather than its own
- * component file — Phase 5's scope is the homepage shell; the actual
- * guided wizard behind /find-my-puja-kit is a Phase 7 (Search System)
- * feature. This banner is just the promotional entry point PROJECT_
- * MASTER.md's homepage structure calls for, with WhatsApp as a fully
- * working fallback until that route exists.
+ *  Hero → TrustStrip → Panchang → DiwaliKitShowcase (immediately after
+ *  Panchang for festive prominence) → CategoryGrid → FeaturedProducts →
+ *  FestivalStrip → FindMyKitBanner → AboutTeaser → ContactBlock
+ *
+ *  DiwaliOfferPopup is a client-side portal that auto-shows after 1.8s
+ *  and lives outside the normal document flow.
  */
 function FindMyKitBanner() {
   return (
@@ -69,12 +68,18 @@ function FindMyKitBanner() {
 export default function HomePage() {
   return (
     <>
+      {/* Festive popup — auto-shows after 1.8 s; portal-rendered */}
+      <DiwaliOfferPopup />
+
       <Hero />
       <TrustStrip />
       <PanchangStrip />
+
+      {/* Diwali kits immediately after Panchang for festive prominence */}
+      <DiwaliKitShowcase />
+
       <CategoryGrid />
       <FeaturedProducts />
-      <DiwaliKitShowcase />
       <FestivalStrip />
       <FindMyKitBanner />
       <AboutTeaser />
