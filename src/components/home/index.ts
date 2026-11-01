@@ -6,3 +6,4 @@ export { PanchangStrip } from "./PanchangStrip";
 export { TrustStrip } from "./TrustStrip";
 export { AboutTeaser } from "./AboutTeaser";
 export { ContactBlock } from "./ContactBlock";
+export { DiwaliKitShowcase } from "./DiwaliKitShowcase";

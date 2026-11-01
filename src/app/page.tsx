@@ -9,6 +9,7 @@ import {
   AboutTeaser,
   TrustStrip,
   ContactBlock,
+  DiwaliKitShowcase,
 } from "@/components/home";
 import { Card, Button } from "@/components/ui";
 import { businessConfig } from "@/config";
@@ -73,6 +74,7 @@ export default function HomePage() {
       <PanchangStrip />
       <CategoryGrid />
       <FeaturedProducts />
+      <DiwaliKitShowcase />
       <FestivalStrip />
       <FindMyKitBanner />
       <AboutTeaser />
